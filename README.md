@@ -25,7 +25,7 @@ Pull requests should have the following things:
 1. The commits should have a descriptive message and which is not in the past tense.
 
   For example:  
-  `Describe the XYZ module with more detail.` or `Add detailed description for XYZ.` is good, but: `Added XYZ.` isn't.
+  `Describe the XYZ plugin with more detail.` or `Add config for XYZ.` is good, but: `Added XYZ.` isn't.
 
 2. Content should be grammatically correct and the spelling should be US English, e.g. Color not Colour.
 
