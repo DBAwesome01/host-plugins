@@ -13,7 +13,7 @@ Adding a plugin is as simple as...
 ```
     {
 		"name": "Silk Spawners",  
-		"desc": "Create Custom Mob Spanwers",  
+		"desc": "Create Custom Mob Spawners",  
 		"jarName": "SilkSpawners.jar",  
 		"configName": "SilkSpawners"  
 	}
