@@ -1,7 +1,7 @@
 ## MCHost.co Plugin Repository
 Public plugin repo used in the /mchost plugin meno. 
 
-### How to add
+### How to Contribute
 Adding a plugin is as simple as...
 
 1. Paste in the .jar file.
