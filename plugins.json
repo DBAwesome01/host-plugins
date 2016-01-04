@@ -1,0 +1,94 @@
+{
+	"plugins": [
+		{
+			"name": "Essentials",
+			"desc": "Essential commands",
+			"jarName": "Essentials.jar",
+			"configName": "Essentials"
+		},
+		{
+			"name": "Essentials Spawn",
+			"desc": "Setup a server spawn point",
+			"jarName": "EssentialsSpawn.jar",
+			"configName": "~"
+		},
+		{
+			"name": "Essentials Group Manager",
+			"desc": "Create Permission Systems",
+			"jarName": "GroupManager.jar",
+			"configName": "GroupManager"
+		},
+		{
+			"name": "No Cheat Plus",
+			"desc": "Anti-cheat",
+			"jarName": "NoCheatPlus.jar",
+			"configName": "NoCheatPlus"
+		},
+		{
+			"name": "Permissions Ex",
+			"desc": "Create Permission Systems",
+			"jarName": "PermissionsEx.jar",
+			"configName": "PermissionsEx"
+		},
+		{
+			"name": "Essentials Chat",
+			"desc": "Chat Formatting",
+			"jarName": "EssentialsChat.jar",
+			"configName": "~"
+		},
+		{
+			"name": "World Edit",
+			"desc": "Build Tools",
+			"jarName": "worldedit.jar",
+			"configName": "WorldGuard"
+		},
+		{
+			"name": "World Guard",
+			"desc": "Region Management",
+			"jarName": "worldguard.jar",
+			"configName": "WorldGuard"
+		},
+		{
+			"name": "Essentials Kit Adder",
+			"desc": "Add kits with commands",
+			"jarName": "KitAdder.jar",
+			"configName": "KitAdder"
+		},
+		{
+			"name": "Trail GUI",
+			"desc": "Particle Trails",
+			"jarName": "TrialGUI.jar",
+			"configName": "TrailGUI"
+		},
+		{
+			"name": "Vault",
+			"desc": "Economy API",
+			"jarName": "Vault.jar",
+			"configName": "Vault"
+		},
+		{
+			"name": "ChestShop",
+			"desc": "Chest Shops",
+			"jarName": "ChestShop.jar",
+			"configName": "ChestShop"
+		},
+		{
+			"name": "Crack Shot",
+			"desc": "Guns in Minecraft",
+			"jarName": "CrackShot.jar",
+			"configName": "CrackShot"
+		},
+		{
+			"name": "Crates Plus",
+			"desc": "Spawn Crates",
+			"jarName": "CratesPlus.jar",
+			"configName": "CratesPlus"
+		},
+		{
+			"name": "Silk Spawners",
+			"desc": "Create Custom Mob Spanwers",
+			"jarName": "SilkSpawners.jar",
+			"configName": "SilkSpawners"
+		}
+	]
+}
