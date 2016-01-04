@@ -1,5 +1,5 @@
 ## MCHost.co Plugin Repository
-Public plugin repo used in the /mchost plugin meno. 
+Public plugin repo used in the /mchost plugin menu. 
 
 ### How to Contribute
 Adding a plugin is as simple as...
