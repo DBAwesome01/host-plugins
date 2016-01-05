@@ -89,6 +89,12 @@
 			"desc": "Create Custom Mob Spawners",
 			"jarName": "SilkSpawners.jar",
 			"configName": "SilkSpawners"
+		},
+		{
+			"name": "ProtocolLib",
+			"desc": "Packet witchcraft”,
+			"jarName": "ProtocolLib.jar",
+			"configName": "ProtocolLib"
 		}
 	]
 }
