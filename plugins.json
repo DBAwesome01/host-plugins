@@ -92,7 +92,7 @@
 		},
 		{
 			"name": "ProtocolLib",
-			"desc": "Packet witchcraft”,
+			"desc": "Packet witchcraft",
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib"
 		}
