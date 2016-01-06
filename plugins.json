@@ -91,6 +91,12 @@
 			"configName": "SilkSpawners"
 		},
 		{
+			"name": "Holographic Displays",
+			"desc": "Create floating text",
+			"jarName": "HolographicDisplaysPatch.jar",
+			"configName": "HolographicDisplaysPatch"
+		},
+		{
 			"name": "ProtocolLib",
 			"desc": "Packet witchcraft",
 			"jarName": "ProtocolLib.jar",
