@@ -18,6 +18,14 @@ Adding a plugin is as simple as...
 		"configName": "SilkSpawners"  
 	}
 ```
+
+You can use `color codes` in the desc.
+```
+"desc": "&bThis will display as aqua!"
+```
+Putting `\n` will result in a new line.
+Please be sure to create multiple lines for large descriptions.
+
 --
 ### Pull Requests
 Pull requests should have the following things:
