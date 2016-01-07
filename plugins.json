@@ -92,7 +92,7 @@
 		},
 		{
 			"name": "Holographic Displays",
-			"desc": "Create floating text",
+			"desc": "Create floating text - requires ProtocolLib",
 			"jarName": "HolographicDisplaysPatch.jar",
 			"configName": "HolographicDisplaysPatch"
 		},
@@ -101,6 +101,12 @@
 			"desc": "Packet witchcraft",
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib"
+		},
+		{
+			"name": "MineResetLite",
+			"desc": "Create resetting mines",
+			"jarName": "MineResetLite.jar",
+			"configName": "MineResetLite"
 		}
 	]
 }
