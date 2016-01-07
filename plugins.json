@@ -92,7 +92,7 @@
 		},
 		{
 			"name": "Holographic Displays",
-			"desc": "Create floating text\n&cRequires ProtocolLib",
+			"desc": "Create floating text\n&cRequires ProtocolLib\n\n&cCurrently Broken! Fixing soon!",
 			"jarName": "HolographicDisplaysPatch.jar",
 			"configName": "HolographicDisplaysPatch"
 		},
