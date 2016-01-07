@@ -98,7 +98,7 @@
 		},
 		{
 			"name": "ProtocolLib",
-			"desc": "Packet witchcraft",
+			"desc": "Packet API",
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib"
 		},
