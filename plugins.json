@@ -107,6 +107,12 @@
 			"desc": "Create resetting mines",
 			"jarName": "MineResetLite.jar",
 			"configName": "MineResetLite"
+		},
+		{
+			"name": "EZRanksLite",
+			"desc": "Simple rankup plugin",
+			"jarName": "EZRanksLite1.6-Bukkit-1.8",
+			"configName": "EZRanksLite"
 		}
 	]
 }
