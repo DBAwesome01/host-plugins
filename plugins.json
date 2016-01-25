@@ -120,6 +120,12 @@
 			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.",
 			"jarName": "ObsidianBreaker.jar",
 			"configName": "ObsidianBreaker"
-		}
+		},
+		{
+			"name": "PrisonRankup",
+			"desc": "Easy rankup plugin for any server!\n&cRequires Vault and a permissions plugin.",
+			"jarName": "PrisonRankup-3.1.jar",
+			"configName": "PrisonRankup"
+		} 
 	]
 }
