@@ -117,7 +117,7 @@
 		{
 			"name": "EZRanksLite",
 			"desc": "Simple rankup plugin",
-			"jarName": "EZRanksLite1.6-Bukkit-1.8",
+			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
 			"configName": "EZRanksLite"
 		}
 	]
