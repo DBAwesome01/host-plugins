@@ -114,6 +114,12 @@
 			"jarName": "Factions.jar",
 			"configName": "Factions",
 			"requiredRank": "2"
+		},
+		{   
+			"name": "ObsidianBreaker",
+			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.",
+			"jarName": "ObsidianBreaker.jar",
+			"configName": "ObsidianBreaker"
 		}
 	]
 }
