@@ -108,13 +108,15 @@
 			"jarName": "MineResetLite.jar",
 			"configName": "MineResetLite"
 		},
-		{   "name": "Factions",
+		{   
+			"name": "Factions",
 			"desc": "Claim land, build a base and wage war!\n&cRequires $25 rank to install.",
 			"jarName": "Factions.jar",
 			"configName": "Factions",
 			"requiredRank": "2"
 		},
-		{   "name": "AutoRank",
+		{   
+			"name": "AutoRank",
 			"desc": "Simple rankup plugin.",
 			"jarName": "Autorank.jar",
 			"configName": "Autorank"
