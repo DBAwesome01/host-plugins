@@ -114,9 +114,9 @@
 			"configName": "Factions",
 			"requiredRank": "2"
 		},
-		{
+		{   												
 			"name": "EZRanksLite",
-			"desc": "Simple rankup plugin",
+			"desc": "Simple rankup plugin.",
 			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
 			"configName": "EZRanksLite"
 		}
