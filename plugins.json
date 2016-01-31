@@ -104,7 +104,7 @@
 		},
 		{
 			"name": "MineResetLite",
-			"desc": "Create resetting mines",
+			"desc": "Create resetting mines.",
 			"jarName": "MineResetLite.jar",
 			"configName": "MineResetLite"
 		},
@@ -114,6 +114,12 @@
 			"jarName": "Factions.jar",
 			"configName": "Factions",
 			"requiredRank": "2"
+		},
+		{
+			"name": "Lockette",
+			"desc": "Personal chest protection system.",
+			"jarName": "Lockette.jar",
+			"configName": "Lockette"
 		},
 		{   
 			"name": "ObsidianBreaker",
