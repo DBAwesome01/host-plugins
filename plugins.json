@@ -8,25 +8,25 @@
 		},
 		{
 			"name": "Essentials Spawn",
-			"desc": "Setup a server spawn point\n&aAll Essentials plugins count as 1 plugin.",
+			"desc": "Setup a server spawn point.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "EssentialsSpawn.jar",
 			"configName": "~"
 		},
 		{
 			"name": "Essentials Group Manager",
-			"desc": "Create Permission Systems\n&aAll Essentials plugins count as 1 plugin.",
+			"desc": "Create Permission Systems.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "GroupManager.jar",
 			"configName": "GroupManager"
 		},
 		{
 			"name": "No Cheat Plus",
-			"desc": "Anti-cheat",
+			"desc": "Anti-cheat System.",
 			"jarName": "NoCheatPlus.jar",
 			"configName": "NoCheatPlus"
 		},
 		{
 			"name": "Permissions Ex",
-			"desc": "Create Permission Systems",
+			"desc": "Create Permission Systems.",
 			"jarName": "PermissionsEx.jar",
 			"configName": "PermissionsEx"
 		},
@@ -62,39 +62,33 @@
 		},
 		{
 			"name": "Vault",
-			"desc": "Economy API",
+			"desc": "Economy API.",
 			"jarName": "Vault.jar",
 			"configName": "Vault"
 		},
 		{
 			"name": "ChestShop",
-			"desc": "Chest Shops",
+			"desc": "Chest Shops.",
 			"jarName": "ChestShop.jar",
 			"configName": "ChestShop"
 		},
 		{
 			"name": "Crack Shot",
-			"desc": "Guns in Minecraft",
+			"desc": "Guns in Minecraft.",
 			"jarName": "CrackShot.jar",
 			"configName": "CrackShot"
 		},
 		{
 			"name": "Crates Plus",
-			"desc": "Spawn Crates",
+			"desc": "Spawn Crates.",
 			"jarName": "CratesPlus.jar",
 			"configName": "CratesPlus"
 		},
 		{
 			"name": "Silk Spawners",
-			"desc": "Create Custom Mob Spawners",
+			"desc": "Create Custom Mob Spawners.",
 			"jarName": "SilkSpawners.jar",
 			"configName": "SilkSpawners"
-		},
-		{
-			"name": "Holographic Displays",
-			"desc": "Create floating text\n&cRequires ProtocolLib\n\n&cCurrently Broken! Fixing soon!",
-			"jarName": "HolographicDisplaysPatch.jar",
-			"configName": "HolographicDisplaysPatch"
 		},
 		{
 			"name": "ProtocolLib",
@@ -104,15 +98,42 @@
 		},
 		{
 			"name": "MineResetLite",
-			"desc": "Create resetting mines",
+			"desc": "Create resetting mines.",
 			"jarName": "MineResetLite.jar",
 			"configName": "MineResetLite"
 		},
+		{   
+			"name": "Factions",
+			"desc": "Claim land, build a base and wage war!\n&cRequires $25 rank to install.",
+			"jarName": "Factions.jar",
+			"configName": "Factions",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Lockette",
+			"desc": "Personal chest protection system.",
+			"jarName": "Lockette.jar",
+			"configName": "Lockette"
+		},
 		{
 			"name": "EZRanksLite",
-			"desc": "Simple rankup plugin",
-			"jarName": "EZRanksLite1.6-Bukkit-1.8",
-			"configName": "EZRanksLite"
+			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.",
+			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
+			"configName": "EZRanksLite1.6-Bukkit-1.8"
+		},
+		{   
+			"name": "ObsidianBreaker",
+			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cRequires $25 rank to install.",
+			"jarName": "ObsidianBreaker.jar",
+			"configName": "ObsidianBreaker",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Combat Log",
+			"desc": "Punish players who log out during combat!",
+			"jarName": "CombatLog-1.8.11-fix.jar",
+			"configName": "CombatLog-1.8.11-fix"
 		}
+		
 	]
 }
