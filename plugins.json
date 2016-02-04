@@ -149,7 +149,7 @@
 		},
 		{
 			"name": "McMMO",
-			"desc": "RPG experience in Minecraft!/n&cRequires $10 rank to install.",
+			"desc": "RPG experience in Minecraft!\n&cRequires $10 rank to install.",
 			"jarName": "mcMMO.jar",
 			"configName": "mcMMO",
 			"requiredRank": "1"
