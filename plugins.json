@@ -117,7 +117,7 @@
 		},
 		{
 			"name": "EZRanksLite",
-			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.",
+			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
 			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
 			"configName": "EZRanksLite1.6-Bukkit-1.8"
 		},
