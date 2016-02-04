@@ -142,14 +142,14 @@
 		},
 		{
 			"name": "Citizens",
-			"desc": "Create custom and interactive NPCs.\n&cRequires $10 rank to install.",
+			"desc": "Create custom and interactive NPCs.\n&cRequires $10 rank to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
 			"jarName": "Citizens.jar",
 			"configName": "Citizens",
 			"requiredRank": "1"
 		},
 		{
 			"name": "McMMO",
-			"desc": "RPG experience in Minecraft!\n&cRequires $10 rank to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
+			"desc": "RPG experience in Minecraft!\n&cRequires $10 rank to install.",
 			"jarName": "mcMMO.jar",
 			"configName": "mcMMO",
 			"requiredRank": "1"
