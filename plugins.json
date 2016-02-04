@@ -139,6 +139,13 @@
 			"desc": "Disguise as mobs!\n&cRequires ProtocolLib",
 			"jarName": "LibsDisguises.jar",
 			"configName": "LibsDisguises"
+		},
+		{
+			"name": "Citizens",
+			"desc": "Create custom and interactive NPCs.\n&cRequires $10 rank to install.",
+			"jarName": "Citizens.jar",
+			"configName": "Citizens",
+			"requiredRank": "1"
 		}
 		
 	]
