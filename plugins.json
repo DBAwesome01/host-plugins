@@ -153,6 +153,12 @@
 			"jarName": "mcMMO.jar",
 			"configName": "mcMMO",
 			"requiredRank": "1"
+		},
+		{
+			"name": "Create Your Own Menus",
+			"desc": "Allows you to create your own GUI menus!",
+			"jarName": "CreateYourOwnMenus-0.5.9.jar",
+			"configName": "CreateYourOwnMenus"
 		}
 		
 	]
