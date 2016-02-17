@@ -55,12 +55,6 @@
 			"configName": "KitAdder"
 		},
 		{
-			"name": "Trail GUI",
-			"desc": "Particle Trails",
-			"jarName": "TrialGUI.jar",
-			"configName": "TrailGUI"
-		},
-		{
 			"name": "Vault",
 			"desc": "Economy API.",
 			"jarName": "Vault.jar",
@@ -159,6 +153,12 @@
 			"desc": "Allows you to create your own GUI menus!",
 			"jarName": "CreateYourOwnMenus-0.5.9.jar",
 			"configName": "CreateYourOwnMenus"
+		},
+		{	
+			"name": "EchoPet",
+			"desc": "Trusty companions that follow you everywhere.",
+			"jarName": "EchoPet_v2.8.0.jar",
+			"configName": "EchoPet_v2.8.0"
 		}
 		
 	]
