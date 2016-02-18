@@ -174,10 +174,9 @@
 		},
 		{
 			"name": "SuperTrails",
-			"desc": "Colorful cosmetic trails to get around fabulously.\n&cRequires $10 rank to install.",
+			"desc": "Colorful cosmetic trails to get around fabulously.",
 			"jarName": "SuperTrails.jar",
 			"configName": "SuperTrails"
-			"requiredRank": "1"
 		}
 	]
 }
