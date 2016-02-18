@@ -159,6 +159,13 @@
 			"desc": "Trusty companions that follow you everywhere.",
 			"jarName": "EchoPet_v2.8.0.jar",
 			"configName": "EchoPet_v2.8.0"
+		},
+		{
+			"name": "AsyncWorldEdit",
+			"desc": "World Edit alternative that reduces lag.\n&cDoes &l&cNOT &crequire World Edit.",
+			"jarName": "AsyncWorldEdit.jar",
+			"configName": "AsyncWorldEdit"
+
 		}
 		
 	]
