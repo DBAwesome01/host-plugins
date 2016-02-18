@@ -159,6 +159,18 @@
 			"desc": "Trusty companions that follow you everywhere.",
 			"jarName": "EchoPet_v2.8.0.jar",
 			"configName": "EchoPet_v2.8.0"
+		},
+		{
+			"name": "AsyncWorldEdit",
+			"desc": "World Edit with reduced lag.\n&cThis is a WorldEdit alternative! Do NOT install both versions!\n&cRequires AsyncWorldEditInjector plugin.",
+			"jarName": "AsyncWorldEdit.jar",
+			"configName": "AsyncWorldEdit"
+		},
+		{
+			"name": "AsyncWorldEditInjector",
+			"desc": "Plugin is required for AsyncWorldEdit to work.",
+			"jarName": "AsyncWorldEditInjector.jar",
+			"configName": "AsyncWorldEditInjector"
 		}
 	]
 }
