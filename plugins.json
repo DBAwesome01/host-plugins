@@ -171,6 +171,13 @@
 			"desc": "Plugin is required for AsyncWorldEdit to work.",
 			"jarName": "AsyncWorldEditInjector.jar",
 			"configName": "AsyncWorldEditInjector"
+		},
+		{
+			"name": "SuperTrails",
+			"desc": "Colorful cosmetic trails to get around fabulously.\n&cRequires $10 rank to install.",
+			"jarName": "SuperTrails.jar",
+			"configName": "SuperTrails"
+			"requiredRank": "1"
 		}
 	]
 }
