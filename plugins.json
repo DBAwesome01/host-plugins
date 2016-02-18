@@ -162,7 +162,7 @@
 		},
 		{
 			"name": "AsyncWorldEdit",
-			"desc": "World Edit with reduced lag.\n&cThis is a WorldEdit alternative! Do NOT install both versions!\n&cRequires AsyncWorldEditInjector plugin.",
+			"desc": "World Edit with reduced lag.\n&cRequires World Edit and AsyncWorldEditInjector plugin.",
 			"jarName": "AsyncWorldEdit.jar",
 			"configName": "AsyncWorldEdit"
 		},
