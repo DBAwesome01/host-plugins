@@ -177,6 +177,12 @@
 			"desc": "Colorful cosmetic trails to get around fabulously.",
 			"jarName": "SuperTrails.jar",
 			"configName": "SuperTrails"
+		},
+		{
+			"name": "CustomEnchants",
+			"desc": "Custom enchantments and levels!",
+			"jarName": "CustomEnchantments.jar",
+			"configName": "CustomEnchantments"
 		}
 	]
 }
