@@ -186,7 +186,7 @@
 		},
 		{
 			"name": "Sky Block",
-			"desc": "Survive on Skyblock Islands.",
+			"desc": "Survive on Skyblock Islands.\n&cThis plugin requires &bVault",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
 			"requiredRank": "2"
