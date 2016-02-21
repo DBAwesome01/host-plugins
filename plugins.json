@@ -183,6 +183,13 @@
 			"desc": "Custom enchantments and levels!",
 			"jarName": "CustomEnchantments.jar",
 			"configName": "CustomEnchantments"
+		},
+		{
+			"name": "Sky Block",
+			"desc": "Survive on Skyblock Islands.",
+			"jarName": "askyblock.jar",
+			"configName": "ASkyBlock",
+			"requiredRank": "2"
 		}
 	]
 }
