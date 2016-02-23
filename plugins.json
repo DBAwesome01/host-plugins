@@ -193,7 +193,7 @@
 		},
 		{
 			"name": "ObsidianAuctions",
-			"desc": "Unique chat based auction system.",
+			"desc": "Unique chat based auction system.\n&cThis plugin requires &bVault",
 			"jarName": "ObsidianAuctions.jar",
 			"configName": "ObsidianAuctions"
 		}
