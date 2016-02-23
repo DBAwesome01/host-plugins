@@ -190,6 +190,12 @@
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
 			"requiredRank": "2"
+		},
+		{
+			"name": "ObsidianAuctions",
+			"desc": "Unique chat based auction system.",
+			"jarName": "ObsidianAuctions.jar",
+			"configName": "ObsidianAuctions"
 		}
 	]
 }
