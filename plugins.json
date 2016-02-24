@@ -196,6 +196,12 @@
 			"desc": "Unique chat based auction system.\n&cThis plugin requires &bVault",
 			"jarName": "ObsidianAuctions.jar",
 			"configName": "ObsidianAuctions"
+		},
+		{
+			"name": "VoxelSniper",
+			"desc": "Long range map editing tool for terraforming.",
+			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
+			"configName": "VoxelSniper"
 		}
 	]
 }
