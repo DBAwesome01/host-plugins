@@ -4,7 +4,8 @@
 			"name": "Via Version",
 			"desc": "This plugin allows &a1.9 & 1.8 &fplayers to join.\n&cThis plugin breaks boats and spawn eggs.",
 			"jarName": "ViaVersion.jar",
-			"configName": "ViaVersion"
+			"configName": "ViaVersion",
+			"freePlugin": "true"
 		},
 		{
 			"name": "Essentials",
