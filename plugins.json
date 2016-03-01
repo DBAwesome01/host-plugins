@@ -20,8 +20,8 @@
 		},
 		{
 			"name": "No Cheat Plus",
-			"desc": "Anti-cheat System.",
-			"jarName": "NoCheatPlus.jar",
+			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
+			"jarName": "NoCheatPlus-b930.jar",
 			"configName": "NoCheatPlus"
 		},
 		{
