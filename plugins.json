@@ -202,6 +202,12 @@
 			"desc": "Long range map editing tool for terraforming.",
 			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
 			"configName": "VoxelSniper"
+		},
+		{
+			"name": "BetterCombat",
+			"desc": "Makes combat like 1.7/1.8\nRemoves attack speed, adds block hiting, etc.",
+			"jarName": "BetterCombat.jar",
+			"configName": "BetterCombat"
 		}
 	]
 }
