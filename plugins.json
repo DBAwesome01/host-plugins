@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "No Cheat Plus",
-			"desc": "Anti-cheat System.",
+			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
 			"jarName": "NoCheatPlus.jar",
 			"configName": "NoCheatPlus"
 		},
@@ -53,12 +53,6 @@
 			"desc": "Add kits with commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "KitAdder.jar",
 			"configName": "KitAdder"
-		},
-		{
-			"name": "Trail GUI",
-			"desc": "Particle Trails",
-			"jarName": "TrialGUI.jar",
-			"configName": "TrailGUI"
 		},
 		{
 			"name": "Vault",
@@ -117,7 +111,7 @@
 		},
 		{
 			"name": "EZRanksLite",
-			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.",
+			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
 			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
 			"configName": "EZRanksLite1.6-Bukkit-1.8"
 		},
@@ -133,7 +127,87 @@
 			"desc": "Punish players who log out during combat!",
 			"jarName": "CombatLog-1.8.11-fix.jar",
 			"configName": "CombatLog-1.8.11-fix"
+		},
+		{
+			"name": "Libs Disguises",
+			"desc": "Disguise as mobs!\n&cRequires ProtocolLib",
+			"jarName": "LibsDisguises.jar",
+			"configName": "LibsDisguises"
+		},
+		{
+			"name": "Citizens",
+			"desc": "Create custom and interactive NPCs.\n&cRequires $10 rank to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
+			"jarName": "Citizens.jar",
+			"configName": "Citizens",
+			"requiredRank": "1"
+		},
+		{
+			"name": "McMMO",
+			"desc": "RPG experience in Minecraft!\n&cRequires $10 rank to install.",
+			"jarName": "mcMMO.jar",
+			"configName": "mcMMO",
+			"requiredRank": "1"
+		},
+		{
+			"name": "Create Your Own Menus",
+			"desc": "Allows you to create your own GUI menus!",
+			"jarName": "CreateYourOwnMenus-0.5.9.jar",
+			"configName": "CreateYourOwnMenus"
+		},
+		{	
+			"name": "EchoPet",
+			"desc": "Trusty companions that follow you everywhere.",
+			"jarName": "EchoPet_v2.8.0.jar",
+			"configName": "EchoPet_v2.8.0"
+		},
+		{
+			"name": "AsyncWorldEdit",
+			"desc": "World Edit with reduced lag.\n&cRequires World Edit and AsyncWorldEditInjector plugin.",
+			"jarName": "AsyncWorldEdit.jar",
+			"configName": "AsyncWorldEdit"
+		},
+		{
+			"name": "AsyncWorldEditInjector",
+			"desc": "Plugin is required for AsyncWorldEdit to work.",
+			"jarName": "AsyncWorldEditInjector.jar",
+			"configName": "AsyncWorldEditInjector"
+		},
+		{
+			"name": "SuperTrails",
+			"desc": "Colorful cosmetic trails to get around fabulously.",
+			"jarName": "SuperTrails.jar",
+			"configName": "SuperTrails"
+		},
+		{
+			"name": "CustomEnchants",
+			"desc": "Custom enchantments and levels!",
+			"jarName": "CustomEnchantments.jar",
+			"configName": "CustomEnchantments"
+		},
+		{
+			"name": "Sky Block",
+			"desc": "Survive on Skyblock Islands.\n&cThis plugin requires &bVault",
+			"jarName": "askyblock.jar",
+			"configName": "ASkyBlock",
+			"requiredRank": "2"
+		},
+		{
+			"name": "ObsidianAuctions",
+			"desc": "Unique chat based auction system.\n&cThis plugin requires &bVault",
+			"jarName": "ObsidianAuctions.jar",
+			"configName": "ObsidianAuctions"
+		},
+		{
+			"name": "VoxelSniper",
+			"desc": "Long range map editing tool for terraforming.",
+			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
+			"configName": "VoxelSniper"
+		},
+		{
+			"name": "BetterCombat",
+			"desc": "Makes combat like 1.7/1.8\nRemoves attack speed, adds block hiting, etc.",
+			"jarName": "BetterCombat.jar",
+			"configName": "BetterCombat"
 		}
-		
 	]
 }
