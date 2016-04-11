@@ -156,7 +156,7 @@
 		},
 		{	
 			"name": "EchoPet",
-			"desc": "Trusty companions that follow you everywhere.",
+			"desc": "Trusty companions that follow you everywhere.\n&cCurrently not working!",
 			"jarName": "EchoPet_v2.8.0.jar",
 			"configName": "EchoPet_v2.8.0"
 		},
