@@ -208,6 +208,12 @@
 			"desc": "Makes combat like 1.7/1.8\nRemoves attack speed, adds block hiting, etc.",
 			"jarName": "BetterCombat.jar",
 			"configName": "BetterCombat"
+		},
+		{
+			"name": "Easy Trades",
+			"desc": "Lets players easily and safely trade items via a GUI",
+			"jarName": "EasyTrades.jar",
+			"configName": "EasyTrades"
 		}
 	]
 }
