@@ -161,16 +161,10 @@
 			"configName": "EchoPet_v2.8.0"
 		},
 		{
-			"name": "AsyncWorldEdit",
-			"desc": "World Edit with reduced lag.\n&cRequires World Edit and AsyncWorldEditInjector plugin.",
-			"jarName": "AsyncWorldEdit.jar",
-			"configName": "AsyncWorldEdit"
-		},
-		{
-			"name": "AsyncWorldEditInjector",
-			"desc": "Plugin is required for AsyncWorldEdit to work.",
-			"jarName": "AsyncWorldEditInjector.jar",
-			"configName": "AsyncWorldEditInjector"
+			"name": "FastAsyncWorldEdit",
+			"desc": "World Edit with reduced lag.\n&cRequires World Edit.",
+			"jarName": "FastAsyncWorldEdit.jar",
+			"configName": "FastAsyncWorldEdit"
 		},
 		{
 			"name": "SuperTrails",
