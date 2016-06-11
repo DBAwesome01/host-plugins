@@ -156,7 +156,7 @@
 		},
 		{	
 			"name": "EchoPet",
-			"desc": "Trusty companions that follow you everywhere.\n&cCurrently not working!",
+			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
 			"jarName": "EchoPet_v2.8.0.jar",
 			"configName": "EchoPet_v2.8.0"
 		},
