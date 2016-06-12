@@ -220,13 +220,6 @@
 			"desc": "Created timed broadcasts for your server",
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
-		},
-		{
-			"name": "Jobs",
-			"desc": "Players can join a job that rewards them with money!",
-			"jarName": "Jobs.jar",
-			"configName": "Jobs",
-			"requiredRank": "1"
 		}
 	]
 }
