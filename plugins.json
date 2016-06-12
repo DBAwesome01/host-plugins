@@ -216,10 +216,10 @@
 			"configName": "EasyTrades"
 		}.
 		{
-			"name": "Holographic Displays",
-			"desc": "Create a floating text display!",
-			"jarName": "HolographicDisplays.jar",
-			"configName": "HolographicDisplays"
+			"name": "Action Announcer",
+			"desc": "Created timed messages for your server",
+			"jarName": "ActionAnnouncer.jar",
+			"configName": "ActionAnnouncer"
 		}
 	]
 }
