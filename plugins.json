@@ -217,7 +217,7 @@
 		},
 		{
 			"name": "Action Announcer",
-			"desc": "Created timed broadcasts for your server",
+			"desc": "Create timed broadcasts for your server",
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
 		}
