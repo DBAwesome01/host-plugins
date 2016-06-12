@@ -220,7 +220,7 @@
 			"desc": "Created timed broadcasts for your server",
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
-		}
+		},
 		{
 			"name": "Holographic Displays",
 			"desc": "Create text messages float in mid air!",
