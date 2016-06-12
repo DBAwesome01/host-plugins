@@ -221,5 +221,11 @@
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
 		}
+		{
+			"name": "Holographic Displays",
+			"desc": "Create text messages float in mid air!",
+			"jarName": "HolographicDisplays.jar",
+			"configName": "HolographicDisplays"
+		}
 	]
 }
