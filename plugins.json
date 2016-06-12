@@ -214,7 +214,7 @@
 			"desc": "Lets players easily and safely trade items via a GUI",
 			"jarName": "EasyTrades.jar",
 			"configName": "EasyTrades"
-		}.
+		},
 		{
 			"name": "Action Announcer",
 			"desc": "Created timed messages for your server",
