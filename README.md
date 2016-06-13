@@ -30,7 +30,7 @@ Please be sure to create multiple lines for large descriptions.
 
 --
 
-To disable a broken plugin, add `disabled: true`
+To disable a broken plugin, add `"disabled": true`
 Example: 
 ```
 	{	
