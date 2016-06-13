@@ -227,6 +227,20 @@
 			"desc": "Make text messages float in midair",
 			"jarName": "HolographicDisplays.jar",
 			"configName": "HolographicDisplays"
+		},
+		{
+			"name": "Towny",
+			"desc": "Towny is a versatile, player-controlled land management plugin",
+			"jarName": "Towny.jar",
+			"configName": "Towny",
+			"requiredRank": "4"
+		},
+		{
+			"name": "TownyChat",
+			"desc": "TownyChat is required if you want to have Towny modify chatting in any way",
+			"jarName": "TownyChat.jar",
+			"configName": "TownyChat",
+			"requiredRank": "4"
 		}
 	]
 }
