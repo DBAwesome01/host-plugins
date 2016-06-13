@@ -158,7 +158,8 @@
 			"name": "EchoPet",
 			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
 			"jarName": "EchoPet_v2.8.0.jar",
-			"configName": "EchoPet_v2.8.0"
+			"configName": "EchoPet_v2.8.0",
+			"disabled": true
 		},
 		{
 			"name": "AsyncWorldEdit",
