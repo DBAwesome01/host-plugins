@@ -241,6 +241,13 @@
 			"jarName": "TownyChat.jar",
 			"configName": "TownyChat",
 			"requiredRank": "4"
+		},
+		{
+			"name": "Multiverse-Core",
+			"desc": "Multi-world management",
+			"jarName": "Multiverse-Core.jar",
+			"configName": "Multiverse-Core",
+			"requiredRank": "4"
 		}
 	]
 }
