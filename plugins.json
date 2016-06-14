@@ -255,6 +255,12 @@
 			"jarName": "VoidWorld.jar",
 			"configName": "VoidWorld",
 			"requiredRank": "4"
+		},
+		{
+			"name": "AntiSwear",
+			"desc": "Stop players Spamming & Cussing in chat",
+			"jarName": "AntiSwear.jar",
+			"configName": "AntiSwear"
 		}
 	]
 }
