@@ -260,7 +260,7 @@
 			"name": "AntiSwear",
 			"desc": "Stop players Spamming & Cussing in chat",
 			"jarName": "AntiSwear.jar",
-			"configName": "AntiSwear"
+			"configName": "ChatControl"
 		}
 	]
 }
