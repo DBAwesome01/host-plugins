@@ -248,6 +248,13 @@
 			"jarName": "Multiverse-Core.jar",
 			"configName": "Multiverse-Core",
 			"requiredRank": "4"
+		},
+		{
+			"name": "VoidWorld",
+			"desc": "Create void-worlds with this and Multiverse-Core",
+			"jarName": "VoidWorld.jar",
+			"configName": "VoidWorld",
+			"requiredRank": "4"
 		}
 	]
 }
