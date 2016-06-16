@@ -40,7 +40,7 @@
 			"name": "World Edit",
 			"desc": "Build Tools",
 			"jarName": "worldedit.jar",
-			"configName": "WorldGuard"
+			"configName": "WorldEdit"
 		},
 		{
 			"name": "World Guard",
