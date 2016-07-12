@@ -49,12 +49,6 @@
 			"configName": "WorldGuard"
 		},
 		{
-			"name": "Essentials Kit Adder",
-			"desc": "Add kits with commands\n&aAll Essentials plugins count as 1 plugin.",
-			"jarName": "KitAdder.jar",
-			"configName": "KitAdder"
-		},
-		{
 			"name": "Vault",
 			"desc": "Economy API.",
 			"jarName": "Vault.jar",
@@ -154,25 +148,6 @@
 			"jarName": "CreateYourOwnMenus-0.5.9.jar",
 			"configName": "CreateYourOwnMenus"
 		},
-		{	
-			"name": "EchoPet",
-			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
-			"jarName": "EchoPet_v2.8.0.jar",
-			"configName": "EchoPet_v2.8.0",
-			"disabled": true
-		},
-		{
-			"name": "AsyncWorldEdit",
-			"desc": "World Edit with reduced lag.\n&cRequires World Edit and AsyncWorldEditInjector plugin.",
-			"jarName": "AsyncWorldEdit.jar",
-			"configName": "AsyncWorldEdit"
-		},
-		{
-			"name": "AsyncWorldEditInjector",
-			"desc": "Plugin is required for AsyncWorldEdit to work.",
-			"jarName": "AsyncWorldEditInjector.jar",
-			"configName": "AsyncWorldEditInjector"
-		},
 		{
 			"name": "SuperTrails",
 			"desc": "Colorful cosmetic trails to get around fabulously.",
@@ -208,7 +183,7 @@
 			"name": "BetterCombat",
 			"desc": "Makes combat like 1.7/1.8\nRemoves attack speed, adds block hiting, etc.",
 			"jarName": "BetterCombat.jar",
-			"configName": "BetterCombat"
+			"configName": "Better_Combat"
 		},
 		{
 			"name": "Easy Trades",
@@ -239,7 +214,7 @@
 			"name": "TownyChat",
 			"desc": "TownyChat is required if you want to have Towny modify chatting in any way",
 			"jarName": "TownyChat.jar",
-			"configName": "TownyChat",
+			"configName": "~",
 			"requiredRank": "4"
 		},
 		{
