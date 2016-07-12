@@ -63,7 +63,7 @@
 		},
 		{
 			"name": "ChestShop",
-			"desc": "Chestshops that allows players to sell/buy items.",
+			"desc": "Chestshops that allow players to sell/buy items.",
 			"jarName": "ChestShop.jar",
 			"configName": "ChestShop"
 		},
