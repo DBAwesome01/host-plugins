@@ -10,7 +10,7 @@ settings:
     # ************************************************************************************************************************************************************
     # *** NOTE: Having this feature enabled can allow improper use of Command Blocks which may lead to undesireable permission changes. You have been warned! ***
     # ************************************************************************************************************************************************************
-    allow_commandblocks: false
+    allow_commandblocks: true
     
   data:
     save:
