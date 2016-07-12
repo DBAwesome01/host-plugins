@@ -170,7 +170,7 @@
 		},
 		{
 			"name": "AsyncWorldEdit",
-			"desc": "WorldEdit with reduced lag.\n&cRequires &nWorldEdit&c and &nAsyncWorldEditInjector&r to be installed.",
+			"desc": "WorldEdit with reduced lag.\n&cRequires &nWorldEdit&c and &nAsyncWorldEditInjector&r&c to be installed.",
 			"jarName": "AsyncWorldEdit.jar",
 			"configName": "AsyncWorldEdit",
 			"disabled": true
