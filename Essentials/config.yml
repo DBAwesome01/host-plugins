@@ -131,6 +131,7 @@ disabled-commands:
 #  - clear
   - whois
   - seen
+  - banip
 
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or
@@ -345,7 +346,7 @@ backup:
   #command: 'rdiff-backup World1 backups/World1'
 
 # Set this true to enable permission per warp.
-per-warp-permission: false
+per-warp-permission: true
 
 # Sort output of /list command by groups.
 # You can hide and merge the groups displayed in /list by defining the desired behaviour here.
@@ -517,6 +518,13 @@ command-cooldown-persistence: true
 # NPC balances can include features like factions from FactionsUUID plugin.
 npcs-in-balance-ranking: false
 
+# Determines the functionality of the /createkit command.
+# If this is true, /createkit will give the user a link with the kit code.
+# If this is false, /createkit will add the kit to this config file directly.
+#
+# WARNING: If this is false, the config comments WILL be removed and it won't look the same as it does now.
+pastebin-createkit: false
+
 ############################################################
 # +------------------------------------------------------+ #
 # |                   EssentialsHome                     | #
@@ -539,17 +547,10 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  1:1
-  2:2
-  3:3
-  4:4
-  5:5
-  6:6
-  7:7
-  8:8
-  9:9
-  10:10
-  
+  default: 3
+  vip: 5
+  staff: 10
+
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
 
@@ -601,7 +602,7 @@ economy-log-enabled: false
 use-bukkit-permissions: false
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.01
+minimum-pay-amount: 0.001
 
 # The format of currency, excluding symbols. See currency-sumbol-format-locale for symbol configuration.
 #
@@ -847,7 +848,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: Starter
+  kit: tools
 
 # Set this to lowest, if you want Multiverse to handle the respawning.
 # Set this to high, if you want EssentialsSpawn to handle the respawning.
