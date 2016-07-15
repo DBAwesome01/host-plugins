@@ -1,5 +1,5 @@
-## MCHost.co Plugin Repository
-Public plugin repo used in the /mchost plugin menu. 
+## Minehut.com Player-Server Plugin Repository
+Public plugin repo used in the /minehut plugin menu. 
 
 ### How to Contribute
 Adding a plugin is as simple as...
@@ -19,12 +19,28 @@ Adding a plugin is as simple as...
 	}
 ```
 
+--
+
 You can use `color codes` in the desc.
 ```
 "desc": "&bThis will display as aqua!"
 ```
 Putting `\n` will result in a new line.
 Please be sure to create multiple lines for large descriptions.
+
+--
+
+To disable a broken plugin, add `"disabled": true`
+Example: 
+```
+	{	
+		"name": "EchoPet",
+		"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
+		"jarName": "EchoPet_v2.8.0.jar",
+		"configName": "EchoPet_v2.8.0",
+		"disabled": true
+	},
+```
 
 --
 ### Pull Requests

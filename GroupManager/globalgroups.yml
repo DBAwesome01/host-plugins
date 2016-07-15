@@ -326,3 +326,4 @@ groups:
     permissions:
     - vanish.silentjoin
     - vanish.silentquit
+    - vanish.silentchests
