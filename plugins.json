@@ -14,7 +14,7 @@
 		},
 		{
 			"name": "Essentials Group Manager",
-			"desc": "Create Permission Systems.\n&aAll Essentials plugins count as 1 plugin.",
+			"desc": "Create permission systems.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "GroupManager.jar",
 			"configName": "GroupManager"
 		},
@@ -26,25 +26,25 @@
 		},
 		{
 			"name": "Permissions Ex",
-			"desc": "Create Permission Systems.",
+			"desc": "Create permission systems.",
 			"jarName": "PermissionsEx.jar",
 			"configName": "PermissionsEx"
 		},
 		{
 			"name": "Essentials Chat",
-			"desc": "Chat Formatting\n&aAll Essentials plugins count as 1 plugin.",
+			"desc": "Format the chat to make it look nicer.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "EssentialsChat.jar",
 			"configName": "~"
 		},
 		{
 			"name": "World Edit",
-			"desc": "Build Tools",
+			"desc": "Build tools.",
 			"jarName": "worldedit.jar",
 			"configName": "WorldEdit"
 		},
 		{
 			"name": "World Guard",
-			"desc": "Region Management",
+			"desc": "Create and manage regions using this plugin.",
 			"jarName": "worldguard.jar",
 			"configName": "WorldGuard"
 		},
@@ -52,7 +52,11 @@
 			"name": "Essentials Kit Adder",
 			"desc": "Add kits with commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "KitAdder.jar",
+<<<<<<< HEAD
 			"configName": "KitAdder",
+=======
+			"configName": "KitAdder"
+>>>>>>> origin/master
 		},
 		{
 			"name": "Vault",
@@ -62,7 +66,7 @@
 		},
 		{
 			"name": "ChestShop",
-			"desc": "Chest Shops.",
+			"desc": "Chestshops that allow players to sell/buy items.",
 			"jarName": "ChestShop.jar",
 			"configName": "ChestShop"
 		},
@@ -74,25 +78,25 @@
 		},
 		{
 			"name": "Crates Plus",
-			"desc": "Spawn Crates.",
+			"desc": "Crates to give out rewards to players with keys.",
 			"jarName": "CratesPlus.jar",
 			"configName": "CratesPlus"
 		},
 		{
 			"name": "Silk Spawners",
-			"desc": "Create Custom Mob Spawners.",
+			"desc": "Create and pick up custom mob spawners.",
 			"jarName": "SilkSpawners.jar",
 			"configName": "SilkSpawners"
 		},
 		{
 			"name": "ProtocolLib",
-			"desc": "Packet API",
+			"desc": "Allows plugins to access new functions.",
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib"
 		},
 		{
 			"name": "MineResetLite",
-			"desc": "Create resetting mines.",
+			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
 			"configName": "MineResetLite"
 		},
@@ -116,7 +120,7 @@
 			"configName": "EZRanksLite1.6-Bukkit-1.8"
 		},
 		{   
-			"name": "ObsidianBreaker",
+			"name": "Obsidian Breaker",
 			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cRequires $25 rank to install.",
 			"jarName": "ObsidianBreaker.jar",
 			"configName": "ObsidianBreaker",
@@ -130,7 +134,7 @@
 		},
 		{
 			"name": "Libs Disguises",
-			"desc": "Disguise as mobs!\n&cRequires ProtocolLib",
+			"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&r",
 			"jarName": "LibsDisguises.jar",
 			"configName": "LibsDisguises"
 		},
@@ -169,14 +173,14 @@
 		},
 		{
 			"name": "AsyncWorldEdit",
-			"desc": "World Edit with reduced lag.\n&cRequires World Edit and AsyncWorldEditInjector plugin.",
+			"desc": "WorldEdit with reduced lag.\n&cRequires &nWorldEdit&c and &nAsyncWorldEditInjector&r&c to be installed.",
 			"jarName": "AsyncWorldEdit.jar",
 			"configName": "AsyncWorldEdit",
 			"disabled": true
 		},
 		{
 			"name": "AsyncWorldEditInjector",
-			"desc": "Plugin is required for AsyncWorldEdit to work.",
+			"desc": "Required plugin for &nAsyncWorldEdit&r",
 			"jarName": "AsyncWorldEditInjector.jar",
 			"configName": "AsyncWorldEditInjector",
 			"disabled": true
@@ -195,14 +199,14 @@
 		},
 		{
 			"name": "Sky Block",
-			"desc": "Survive on Skyblock Islands.\n&cThis plugin requires &bVault",
+			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nVault&c.",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
 			"requiredRank": "2"
 		},
 		{
 			"name": "ObsidianAuctions",
-			"desc": "Unique chat based auction system.\n&cThis plugin requires &bVault",
+			"desc": "Unique chat based auction system.\n&cThis plugin requires &nVault&c.",
 			"jarName": "ObsidianAuctions.jar",
 			"configName": "ObsidianAuctions"
 		},
@@ -214,59 +218,59 @@
 		},
 		{
 			"name": "BetterCombat",
-			"desc": "Makes combat like 1.7/1.8\nRemoves attack speed, adds block hiting, etc.",
+			"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
 			"jarName": "BetterCombat.jar",
 			"configName": "BetterCombat"
 		},
 		{
 			"name": "Easy Trades",
-			"desc": "Lets players easily and safely trade items via a GUI",
+			"desc": "Lets players easily and safely trade items via a GUI.",
 			"jarName": "EasyTrades.jar",
 			"configName": "EasyTrades"
 		},
 		{
 			"name": "Action Announcer",
-			"desc": "Create timed broadcasts for your server",
+			"desc": "Create timed broadcasts for your server through the action bar.",
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
 		},
 		{
 			"name": "Holographic Displays",
-			"desc": "Make text messages float in midair",
+			"desc": "Make floating messages around your world.",
 			"jarName": "HolographicDisplays.jar",
 			"configName": "HolographicDisplays"
 		},
 		{
 			"name": "Towny",
-			"desc": "Towny is a versatile, player-controlled land management plugin",
+			"desc": "Towny is a versatile, player-controlled land management plugin.",
 			"jarName": "Towny.jar",
 			"configName": "Towny",
 			"requiredRank": "4"
 		},
 		{
 			"name": "TownyChat",
-			"desc": "TownyChat is required if you want to have Towny modify chatting in any way",
+			"desc": "This plugin is required if you want to let Towny modify chat in any way.",
 			"jarName": "TownyChat.jar",
 			"configName": "TownyChat",
 			"requiredRank": "4"
 		},
 		{
 			"name": "Multiverse-Core",
-			"desc": "Multi-world management",
+			"desc": "Multi-world management.",
 			"jarName": "Multiverse-Core.jar",
 			"configName": "Multiverse-Core",
 			"requiredRank": "4"
 		},
 		{
 			"name": "VoidWorld",
-			"desc": "Create void-worlds with this and Multiverse-Core",
+			"desc": "Create void-worlds with this and Multiverse-Core.",
 			"jarName": "VoidWorld.jar",
 			"configName": "VoidWorld",
 			"requiredRank": "4"
 		},
 		{
 			"name": "AntiSwear",
-			"desc": "Stop players spamming & cussing in chat",
+			"desc": "Stop players spamming & cussing in chat.",
 			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		}
