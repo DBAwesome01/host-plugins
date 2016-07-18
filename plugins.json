@@ -53,7 +53,6 @@
 			"desc": "Add kits with commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "KitAdder.jar",
 			"configName": "KitAdder",
-			"disabled": true
 		},
 		{
 			"name": "Vault",
