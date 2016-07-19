@@ -269,6 +269,12 @@
 			"desc": "Stop players spamming & cussing in chat.",
 			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
+		},
+		{
+			"name": "Shopkeepers",
+			"desc": "Create customizable villager shops with this plugin.",
+			"jarName": "Shopkeepers.jar",
+			"configName": "Shopkeepers"
 		}
 	]
 }
