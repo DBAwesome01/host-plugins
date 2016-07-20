@@ -265,6 +265,12 @@
 			"requiredRank": "4"
 		},
 		{
+			"name": "Fast Async WorldEdit",
+			"desc": "Extremely optimized WorldEdit to use when working with big numbers.",
+			"jarName": "FastAsyncWorldEdit.jar",
+			"configName": "FastAsyncWorldEdit"
+		},
+		{
 			"name": "AntiSwear",
 			"desc": "Stop players spamming & cussing in chat.",
 			"jarName": "AntiSwear.jar",
