@@ -13,40 +13,10 @@
 			"configName": "~"
 		},
 		{
-			"name": "Essentials Group Manager",
-			"desc": "Create permission systems.\n&aAll Essentials plugins count as 1 plugin.",
-			"jarName": "GroupManager.jar",
-			"configName": "GroupManager"
-		},
-		{
-			"name": "No Cheat Plus",
-			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
-			"jarName": "NoCheatPlus.jar",
-			"configName": "NoCheatPlus"
-		},
-		{
-			"name": "Permissions Ex",
-			"desc": "Create permission systems.",
-			"jarName": "PermissionsEx.jar",
-			"configName": "PermissionsEx"
-		},
-		{
 			"name": "Essentials Chat",
 			"desc": "Format the chat to make it look nicer.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "EssentialsChat.jar",
 			"configName": "~"
-		},
-		{
-			"name": "World Edit",
-			"desc": "Build tools.",
-			"jarName": "worldedit.jar",
-			"configName": "WorldEdit"
-		},
-		{
-			"name": "World Guard",
-			"desc": "Create and manage regions using this plugin.",
-			"jarName": "worldguard.jar",
-			"configName": "WorldGuard"
 		},
 		{
 			"name": "Essentials Kit Adder",
@@ -55,10 +25,66 @@
 			"configName": "KitAdder"
 		},
 		{
+			"name": "Essentials Group Manager",
+			"desc": "Create permission systems.\n&aAll Essentials plugins count as 1 plugin.",
+			"jarName": "GroupManager.jar",
+			"configName": "GroupManager"
+		},
+		{
+			"name": "Permissions Ex",
+			"desc": "Create permission systems.",
+			"jarName": "PermissionsEx.jar",
+			"configName": "PermissionsEx"
+		},
+		{
+			"name": "No Cheat Plus",
+			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
+			"jarName": "NoCheatPlus.jar",
+			"configName": "NoCheatPlus"
+		},
+		{
+			"name": "World Edit",
+			"desc": "Build tools.",
+			"jarName": "worldedit.jar",
+			"configName": "WorldEdit"
+		},
+		{
+			"name": "Fast Async WorldEdit",
+			"desc": "Extremely optimized WorldEdit to use when working with big numbers.",
+			"jarName": "FastAsyncWorldEdit.jar",
+			"configName": "FastAsyncWorldEdit"
+		},
+		{
+			"name": "AsyncWorldEdit",
+			"desc": "WorldEdit with reduced lag.\n&cRequires &nWorldEdit&c and &nAsyncWorldEditInjector&r&c to be installed.",
+			"jarName": "AsyncWorldEdit.jar",
+			"configName": "AsyncWorldEdit",
+			"disabled": true
+		},
+		{
+			"name": "AsyncWorldEditInjector",
+			"desc": "Required plugin for &nAsyncWorldEdit&r",
+			"jarName": "AsyncWorldEditInjector.jar",
+			"configName": "AsyncWorldEditInjector",
+			"disabled": true
+		},
+		{
+			"name": "World Guard",
+			"desc": "Create and manage regions using this plugin.",
+			"jarName": "worldguard.jar",
+			"configName": "WorldGuard"
+		},
+		{
 			"name": "Vault",
 			"desc": "Economy API.",
 			"jarName": "Vault.jar",
 			"configName": "Vault"
+		},
+		{
+			"name": "ProtocolLib",
+			"desc": "Allows plugins to access new functions.",
+			"jarName": "ProtocolLib.jar",
+			"configName": "ProtocolLib"
 		},
 		{
 			"name": "ChestShop",
@@ -79,16 +105,16 @@
 			"configName": "CratesPlus"
 		},
 		{
+			"name": "Shopkeepers",
+			"desc": "Create customizable villager shops with this plugin.",
+			"jarName": "Shopkeepers.jar",
+			"configName": "Shopkeepers"
+		},
+		{
 			"name": "Silk Spawners",
 			"desc": "Create and pick up custom mob spawners.",
 			"jarName": "SilkSpawners.jar",
 			"configName": "SilkSpawners"
-		},
-		{
-			"name": "ProtocolLib",
-			"desc": "Allows plugins to access new functions.",
-			"jarName": "ProtocolLib.jar",
-			"configName": "ProtocolLib"
 		},
 		{
 			"name": "MineResetLite",
@@ -96,12 +122,11 @@
 			"jarName": "MineResetLite.jar",
 			"configName": "MineResetLite"
 		},
-		{   
-			"name": "Factions",
-			"desc": "Claim land, build a base and wage war!\n&cRequires $25 rank to install.",
-			"jarName": "Factions.jar",
-			"configName": "Factions",
-			"requiredRank": "2"
+		{
+			"name": "AntiSwear",
+			"desc": "Stop players spamming & cussing in chat.",
+			"jarName": "AntiSwear.jar",
+			"configName": "ChatControl"
 		},
 		{
 			"name": "Lockette",
@@ -115,14 +140,7 @@
 			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
 			"configName": "EZRanksLite1.6-Bukkit-1.8"
 		},
-		{   
-			"name": "Obsidian Breaker",
-			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cRequires $25 rank to install.",
-			"jarName": "ObsidianBreaker.jar",
-			"configName": "ObsidianBreaker",
-			"requiredRank": "2"
-		},
-		{
+{
 			"name": "Combat Log",
 			"desc": "Punish players who log out during combat!",
 			"jarName": "CombatLog-1.8.11-fix.jar",
@@ -133,20 +151,6 @@
 			"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&r",
 			"jarName": "LibsDisguises.jar",
 			"configName": "LibsDisguises"
-		},
-		{
-			"name": "Citizens",
-			"desc": "Create custom and interactive NPCs.\n&cRequires $10 rank to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
-			"jarName": "Citizens.jar",
-			"configName": "Citizens",
-			"requiredRank": "1"
-		},
-		{
-			"name": "McMMO",
-			"desc": "RPG experience in Minecraft!\n&cRequires $10 rank to install.",
-			"jarName": "mcMMO.jar",
-			"configName": "mcMMO",
-			"requiredRank": "1"
 		},
 		{
 			"name": "Create Your Own Menus",
@@ -166,39 +170,6 @@
 			"desc": "A fork of EchoPet updated for 1.9.",
 			"jarName": "SonarPet.jar",
 			"configName": "SonarPet"
-		},
-		{
-			"name": "AsyncWorldEdit",
-			"desc": "WorldEdit with reduced lag.\n&cRequires &nWorldEdit&c and &nAsyncWorldEditInjector&r&c to be installed.",
-			"jarName": "AsyncWorldEdit.jar",
-			"configName": "AsyncWorldEdit",
-			"disabled": true
-		},
-		{
-			"name": "AsyncWorldEditInjector",
-			"desc": "Required plugin for &nAsyncWorldEdit&r",
-			"jarName": "AsyncWorldEditInjector.jar",
-			"configName": "AsyncWorldEditInjector",
-			"disabled": true
-		},
-		{
-			"name": "SuperTrails",
-			"desc": "Colorful cosmetic trails to get around fabulously.",
-			"jarName": "SuperTrails.jar",
-			"configName": "SuperTrails"
-		},
-		{
-			"name": "CustomEnchants",
-			"desc": "Custom enchantments and levels!",
-			"jarName": "CustomEnchantments.jar",
-			"configName": "CustomEnchantments"
-		},
-		{
-			"name": "Sky Block",
-			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nVault&c.",
-			"jarName": "askyblock.jar",
-			"configName": "ASkyBlock",
-			"requiredRank": "2"
 		},
 		{
 			"name": "ObsidianAuctions",
@@ -237,6 +208,53 @@
 			"configName": "HolographicDisplays"
 		},
 		{
+			"name": "SuperTrails",
+			"desc": "Colorful cosmetic trails to get around fabulously.",
+			"jarName": "SuperTrails.jar",
+			"configName": "SuperTrails"
+		},
+		{
+			"name": "CustomEnchants",
+			"desc": "Custom enchantments and levels!",
+			"jarName": "CustomEnchantments.jar",
+			"configName": "CustomEnchantments"
+		},
+		{
+			"name": "Citizens",
+			"desc": "Create custom and interactive NPCs.\n&cRequires $10 rank to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
+			"jarName": "Citizens.jar",
+			"configName": "Citizens",
+			"requiredRank": "1"
+		},
+		{
+			"name": "McMMO",
+			"desc": "RPG experience in Minecraft!\n&cRequires $10 rank to install.",
+			"jarName": "mcMMO.jar",
+			"configName": "mcMMO",
+			"requiredRank": "1"
+		},
+		{   
+			"name": "Factions",
+			"desc": "Claim land, build a base and wage war!\n&cRequires $25 rank to install.",
+			"jarName": "Factions.jar",
+			"configName": "Factions",
+			"requiredRank": "2"
+		},
+		{   
+			"name": "Obsidian Breaker",
+			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cRequires $25 rank to install.",
+			"jarName": "ObsidianBreaker.jar",
+			"configName": "ObsidianBreaker",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Sky Block",
+			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nVault&c.",
+			"jarName": "askyblock.jar",
+			"configName": "ASkyBlock",
+			"requiredRank": "2"
+		},
+		{
 			"name": "Towny",
 			"desc": "Towny is a versatile, player-controlled land management plugin.",
 			"jarName": "Towny.jar",
@@ -263,24 +281,6 @@
 			"jarName": "VoidWorld.jar",
 			"configName": "VoidWorld",
 			"requiredRank": "4"
-		},
-		{
-			"name": "Fast Async WorldEdit",
-			"desc": "Extremely optimized WorldEdit to use when working with big numbers.",
-			"jarName": "FastAsyncWorldEdit.jar",
-			"configName": "FastAsyncWorldEdit"
-		},
-		{
-			"name": "AntiSwear",
-			"desc": "Stop players spamming & cussing in chat.",
-			"jarName": "AntiSwear.jar",
-			"configName": "ChatControl"
-		},
-		{
-			"name": "Shopkeepers",
-			"desc": "Create customizable villager shops with this plugin.",
-			"jarName": "Shopkeepers.jar",
-			"configName": "Shopkeepers"
 		}
 	]
 }
