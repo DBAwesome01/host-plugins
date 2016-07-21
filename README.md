@@ -30,7 +30,7 @@ Please be sure to create multiple lines for large descriptions.
 
 --
 
-To disable a broken plugin, add `"disabled": true`
+In its current state, our framework does not support the practice of hard deleting plugins. To disable/remove a broken plugin, add `"disabled": true`
 Example: 
 ```
 	{	
