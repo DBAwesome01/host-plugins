@@ -42,6 +42,8 @@ Example:
 	},
 ```
 
+This will remove the plugin from servers when they startup, and will hide the plugin from the plugins page of the control panel.
+
 --
 ### Pull Requests
 Pull requests should have the following things:
