@@ -58,7 +58,7 @@ force-disable-teleport-safety: false
 teleport-cooldown: 0
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
-teleport-delay: 3
+teleport-delay: 0
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
@@ -528,7 +528,7 @@ tpa-accept-cancellation: 120
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 250
+starting-balance: 0
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
 # These are now defined in worth.yml
