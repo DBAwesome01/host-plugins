@@ -288,6 +288,18 @@
 			"jarName": "PlotSquared.jar",
 			"configName": "PlotSquared",
 			"requiredRank": "4"
+		},
+		{
+			"name": "Joe's Horse Collect",
+			"desc": "Collect, transport, place and spawn horses.",
+			"jarName": "JoeHorseCollect.jar",
+			"configName": "JoeHorseCollect"
+		},
+		{
+			"name": "Joe Marriage",
+			"desc": "Added marriages and divorces to your server.",
+			"jarName": "JoeMarriage.jar",
+			"configName": "JoeMarriage"
 		}
 	]
 }
