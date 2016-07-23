@@ -281,6 +281,13 @@
 			"jarName": "VoidWorld.jar",
 			"configName": "VoidWorld",
 			"requiredRank": "4"
+		},
+			{
+			"name": "PlotSquared",
+			"desc": "PlotSquared is a land management plugin.",
+			"jarName": "PlotSquared.jar",
+			"configName": "PlotSquared",
+			"requiredRank": "4"
 		}
 	]
 }
