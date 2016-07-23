@@ -288,7 +288,7 @@
 			"jarName": "PlotSquared.jar",
 			"configName": "PlotSquared",
 			"requiredRank": "4"
-		}
+		},
 		{
 			"name": "Joe's Horse Collect",
 			"desc": "Collect, transport, place and spawn horses.",
