@@ -221,70 +221,70 @@
 		},
 		{
 			"name": "Citizens",
-			"desc": "Create custom and interactive NPCs.\n&cRequires $10 rank to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
+			"desc": "Create custom and interactive NPCs.\n&cThis plugin requires &nTier 1&c to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
 			"jarName": "Citizens.jar",
 			"configName": "Citizens",
 			"requiredRank": "1"
 		},
 		{
 			"name": "McMMO",
-			"desc": "RPG experience in Minecraft!\n&cRequires $10 rank to install.",
+			"desc": "RPG experience in Minecraft!\n&cThis plugin requires &nTier 1&c to install.",
 			"jarName": "mcMMO.jar",
 			"configName": "mcMMO",
 			"requiredRank": "1"
 		},
 		{   
 			"name": "Factions",
-			"desc": "Claim land, build a base and wage war!\n&cRequires $25 rank to install.",
+			"desc": "Claim land, build a base and wage war!\n&cThis plugin requires &nTier 2&c to install.",
 			"jarName": "Factions.jar",
 			"configName": "Factions",
 			"requiredRank": "2"
 		},
 		{   
 			"name": "Obsidian Breaker",
-			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cRequires $25 rank to install.",
+			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cThis plugin requires &nTier 2&c to install.",
 			"jarName": "ObsidianBreaker.jar",
 			"configName": "ObsidianBreaker",
 			"requiredRank": "2"
 		},
 		{
 			"name": "Sky Block",
-			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nVault&c.",
+			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
 			"requiredRank": "2"
 		},
 		{
 			"name": "Towny",
-			"desc": "Towny is a versatile, player-controlled land management plugin.",
+			"desc": "Towny is a versatile, player-controlled land management plugin.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "Towny.jar",
 			"configName": "Towny",
 			"requiredRank": "4"
 		},
 		{
 			"name": "TownyChat",
-			"desc": "This plugin is required if you want to let Towny modify chat in any way.",
+			"desc": "This is required if you want to let Towny modify chat.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "TownyChat.jar",
 			"configName": "TownyChat",
 			"requiredRank": "4"
 		},
 		{
 			"name": "Multiverse-Core",
-			"desc": "Multi-world management.",
+			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "Multiverse-Core.jar",
 			"configName": "Multiverse-Core",
 			"requiredRank": "4"
 		},
 		{
 			"name": "VoidWorld",
-			"desc": "Create void-worlds with this and Multiverse-Core.",
+			"desc": "Create void-worlds with this and Multiverse-Core.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "VoidWorld.jar",
 			"configName": "VoidWorld",
 			"requiredRank": "4"
 		},
 			{
 			"name": "PlotSquared",
-			"desc": "PlotSquared is a land management plugin.",
+			"desc": "PlotSquared is a land management plugin.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "PlotSquared.jar",
 			"configName": "PlotSquared",
 			"requiredRank": "4"
