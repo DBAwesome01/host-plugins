@@ -225,6 +225,7 @@
 			"jarName": "Citizens.jar",
 			"configName": "Citizens",
 			"requiredRank": "1"
+			"disabled": true
 		},
 		{
 			"name": "McMMO",
