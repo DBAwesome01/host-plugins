@@ -224,7 +224,7 @@
 			"desc": "Create custom and interactive NPCs.\n&cThis plugin requires &nTier 1&c to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
 			"jarName": "Citizens.jar",
 			"configName": "Citizens",
-			"requiredRank": "1"
+			"requiredRank": "1",
 			"disabled": true
 		},
 		{
