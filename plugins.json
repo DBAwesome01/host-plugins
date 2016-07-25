@@ -290,6 +290,12 @@
 			"requiredRank": "4"
 		},
 		{
+			"name": "Log",
+			"desc": "Log blocks in your world without MySQL or configuration.",
+			"jarName": "Log.jar",
+			"configName": "Log"
+		},
+		{
 			"name": "Joe's Horse Collect",
 			"desc": "Collect, transport, place and spawn horses.",
 			"jarName": "JoeHorseCollect.jar",
