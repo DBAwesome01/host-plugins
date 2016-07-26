@@ -290,10 +290,11 @@
 			"requiredRank": "4"
 		},
 		{
-			"name": "Log",
-			"desc": "Log blocks in your world without MySQL or configuration.",
+			"name": "Log by Bayside308",
+			"desc": "Log blocks in your world without MySQL or configuration.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "Log.jar",
-			"configName": "Log"
+			"configName": "Log",
+			"requiredRank": "3"
 		},
 		{
 			"name": "Joe's Horse Collect",
