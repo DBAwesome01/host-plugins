@@ -52,7 +52,8 @@
 			"name": "Fast Async WorldEdit",
 			"desc": "Extremely optimized WorldEdit to use when working with big numbers.",
 			"jarName": "FastAsyncWorldEdit.jar",
-			"configName": "FastAsyncWorldEdit"
+			"configName": "FastAsyncWorldEdit",
+			"disabled": true
 		},
 		{
 			"name": "AsyncWorldEdit",
