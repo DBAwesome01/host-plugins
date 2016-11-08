@@ -309,6 +309,12 @@
 			"desc": "Added marriages and divorces to your server.",
 			"jarName": "JoeMarriage.jar",
 			"configName": "JoeMarriage"
+		},
+		{
+			"name": "Loot Protect",
+			"desc": "Protects loot dropped upon death",
+			"jarName": "LootProtect.jar",
+			"configName": "LootProtect"
 		}
 	]
 }
