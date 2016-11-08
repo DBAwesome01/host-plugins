@@ -321,5 +321,6 @@
 			"desc": "Clears entities to reduce lag on your server.",
 			"jarName": "Clearlag.jar",
 			"configName": "ClearLag"
+		}
 	]
 }
