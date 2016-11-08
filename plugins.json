@@ -315,6 +315,11 @@
 			"desc": "Protects loot dropped upon death",
 			"jarName": "LootProtect.jar",
 			"configName": "LootProtect"
-		}
+		},
+		{
+			"name": "ClearLag",
+			"desc": "Clears entities to reduce lag on your server.",
+			"jarName": "Clearlag.jar",
+			"configName": "ClearLag"
 	]
 }
