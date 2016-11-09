@@ -315,6 +315,12 @@
 			"desc": "Protects loot dropped upon death",
 			"jarName": "LootProtect.jar",
 			"configName": "LootProtect"
-		}
+		},
+		{
+			"name: "Citizens"
+			"desc": "Updated Citizens, downgraded LibsDisguises and enabled KitAdder for the time being"
+			"jarName": "Citizens.jar"
+			"congigName": "Citizens"
+			{
 	]
 }
