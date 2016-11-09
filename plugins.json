@@ -317,10 +317,12 @@
 			"configName": "LootProtect"
 		},
 		{
-			"name: "Citizens"
-			"desc": "Updated Citizens, downgraded LibsDisguises and enabled KitAdder for the time being"
-			"jarName": "Citizens.jar"
-			"congigName": "Citizens"
-			{
+            "name": "Citizens",
+            "desc": "Add NPCs to your server!",
+            "jarName": "Citizens.jar",
+            "configName": "Citizens"
+        }
+		
+			
 	]
 }
