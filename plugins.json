@@ -317,10 +317,10 @@
 			"configName": "LootProtect"
 		},
 		{
-            "name": "Citizens",
-            "desc": "Add NPCs to your server!",
-            "jarName": "Citizens.jar",
-            "configName": "Citizens"
+                        "name": "Citizens",
+                        "desc": "Add NPCs to your server!",
+                        "jarName": "Citizens.jar",
+                        "configName": "Citizens"
         }
 		
 			
