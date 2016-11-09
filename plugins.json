@@ -315,6 +315,14 @@
 			"desc": "Protects loot dropped upon death",
 			"jarName": "LootProtect.jar",
 			"configName": "LootProtect"
-		}
+		},
+		{
+                        "name": "Citizens",
+                        "desc": "Add NPCs to your server!",
+                        "jarName": "Citizens.jar",
+                        "configName": "Citizens"
+        }
+		
+			
 	]
 }
