@@ -136,10 +136,10 @@
 			"configName": "Lockette"
 		},
 		{
-			"name": "EZRanksLite",
+			"name": "EZRanksPro",
 			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
-			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
-			"configName": "EZRanksLite1.6-Bukkit-1.8"
+			"jarName": "EZRanksPro.jar",
+			"configName": "EZRanksPro"
 		},
 {
 			"name": "Combat Log",
@@ -191,10 +191,10 @@
 			"configName": "BetterCombat"
 		},
 		{
-			"name": "Easy Trades",
+			"name": "Trade+",
 			"desc": "Lets players easily and safely trade items via a GUI.",
-			"jarName": "EasyTrades.jar",
-			"configName": "EasyTrades"
+			"jarName": "TradePlus.jar",
+			"configName": "TradePlus"
 		},
 		{
 			"name": "Action Announcer",
