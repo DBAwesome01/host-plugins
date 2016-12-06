@@ -77,7 +77,7 @@
 		},
 		{
 			"name": "Vault",
-			"desc": "Economy API.",
+			"desc": "Economy, Permissions, and Chat API.",
 			"jarName": "Vault.jar",
 			"configName": "Vault"
 		},
