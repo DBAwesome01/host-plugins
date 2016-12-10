@@ -141,7 +141,7 @@
 			"jarName": "EZRanksPro.jar",
 			"configName": "EZRanksPro"
 		},
-{
+		{
 			"name": "Combat Log",
 			"desc": "Punish players who log out during combat!",
 			"jarName": "CombatLog-1.8.11-fix.jar",
@@ -314,21 +314,21 @@
 			"desc": "Helps clear the lag on your server.\n&cThis plugin requires &nTier 1&c to install.",
 			"jarName": "ClearLag.jar",
 			"configName": "ClearLag",
-      "requiredRank": "1"
-    {
-      "name": "Citizens",
-      "desc": "Add NPCs to your server!",
-      "jarName": "Citizens.jar",
-      "configName": "Citizens"
-    },
-    {
-    	"name": "Scaffold",
-    	"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core\n&cRequires &nTier 4&c to install.",
-    	"jarName": "Scaffold.jar",
-    	"configName": "Scaffold",
+      			"requiredRank": "1"
+    		{
+      			"name": "Citizens",
+      			"desc": "Add NPCs to your server!",
+      			"jarName": "Citizens.jar",
+      			"configName": "Citizens"
+    		},
+    		{
+    			"name": "Scaffold",
+    			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core\n&cRequires &nTier 4&c to install.",
+    			"jarName": "Scaffold.jar",
+    			"configName": "Scaffold",
 			"requiredRank": "4"
-    },
-    {
+    		},
+    		{
 			"name": "Multiverse-Core",
 			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "Multiverse-Core.jar",
