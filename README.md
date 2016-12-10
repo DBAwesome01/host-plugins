@@ -56,4 +56,4 @@ Pull requests should have the following things:
 2. Content should be grammatically correct and the spelling should be US English, e.g. Color not Colour.
 
 -
-**Changes are instantly applied to all servers accross the network.**
+**Changes are instantly applied to all servers accross the network. Please be cautious of any json syntax errors.**

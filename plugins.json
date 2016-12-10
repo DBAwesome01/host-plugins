@@ -77,7 +77,7 @@
 		},
 		{
 			"name": "Vault",
-			"desc": "Economy API.",
+			"desc": "Economy, Permissions, and Chat API.",
 			"jarName": "Vault.jar",
 			"configName": "Vault"
 		},
@@ -136,10 +136,10 @@
 			"configName": "Lockette"
 		},
 		{
-			"name": "EZRanksLite",
+			"name": "EZRanksPro",
 			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
-			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
-			"configName": "EZRanksLite1.6-Bukkit-1.8"
+			"jarName": "EZRanksPro.jar",
+			"configName": "EZRanksPro"
 		},
 {
 			"name": "Combat Log",
@@ -191,10 +191,10 @@
 			"configName": "BetterCombat"
 		},
 		{
-			"name": "Easy Trades",
+			"name": "Trade+",
 			"desc": "Lets players easily and safely trade items via a GUI.",
-			"jarName": "EasyTrades.jar",
-			"configName": "EasyTrades"
+			"jarName": "TradePlus.jar",
+			"configName": "TradePlus"
 		},
 		{
 			"name": "Action Announcer",
@@ -271,13 +271,6 @@
 			"requiredRank": "4"
 		},
 		{
-			"name": "Multiverse-Core",
-			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
-			"jarName": "Multiverse-Core.jar",
-			"configName": "Multiverse-Core",
-			"requiredRank": "4"
-		},
-		{
 			"name": "VoidWorld",
 			"desc": "Create void-worlds with this and Multiverse-Core.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "VoidWorld.jar",
@@ -312,15 +305,35 @@
 		},
 		{
 			"name": "Loot Protect",
-			"desc": "Protects loot dropped upon death",
+			"desc": "Protects loot dropped upon death.",
 			"jarName": "LootProtect.jar",
 			"configName": "LootProtect"
 		},
 		{
 			"name": "ClearLag",
-			"desc": "Clears entities to reduce lag on your server.",
-			"jarName": "Clearlag.jar",
-			"configName": "ClearLag"
+			"desc": "Helps clear the lag on your server.\n&cThis plugin requires &nTier 1&c to install.",
+			"jarName": "ClearLag.jar",
+			"configName": "ClearLag",
+      "requiredRank": "1"
+    {
+      "name": "Citizens",
+      "desc": "Add NPCs to your server!",
+      "jarName": "Citizens.jar",
+      "configName": "Citizens"
+    },
+    {
+    	"name": "Scaffold",
+    	"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core\n&cRequires &nTier 4&c to install.",
+    	"jarName": "Scaffold.jar",
+    	"configName": "Scaffold",
+			"requiredRank": "4"
+    },
+    {
+			"name": "Multiverse-Core",
+			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
+			"jarName": "Multiverse-Core.jar",
+			"configName": "Multiverse-Core",
+			"requiredRank": "4"
 		}
 	]
 }
