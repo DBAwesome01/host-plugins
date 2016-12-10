@@ -328,7 +328,13 @@
 			"jarName": "Multiverse-Core.jar",
 			"configName": "Multiverse-Core",
 			"requiredRank": "4"
-		}
+		},
+		{
+			"name":"Punishment"
+			"desc": "Punish your players more effectively! \n&cThis plugin requires &nTier 2&cto install.
+			"jarName": "Punishment-2.0.jar",
+			"configName": "Punishment",
+			"requiredRank": "2"
 			
 	]
 }
