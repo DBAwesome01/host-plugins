@@ -277,7 +277,7 @@
 			"configName": "VoidWorld",
 			"requiredRank": "4"
 		},
-			{
+		{
 			"name": "PlotSquared",
 			"desc": "PlotSquared is a land management plugin.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "PlotSquared.jar",
@@ -337,8 +337,8 @@
 			"requiredRank": "4"
 		},
 		{
-			"name":"Punishment"
-			"desc": "Punish your players more effectively! \n&cThis plugin requires &nTier 2 &cto install.
+			"name":"Punishment",
+			"desc": "Punish your players more effectively! \n&cThis plugin requires &nTier 2 &cto install.",
 			"jarName": "Punishment.jar",
 			"configName": "Punishment",
 			"requiredRank": "2"
