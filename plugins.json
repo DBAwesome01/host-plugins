@@ -338,7 +338,7 @@
 		},
 		{
 			"name":"Punishment",
-			"desc": "Punish your players more effectively! \n&cThis plugin requires &nTier 2 &cto install.",
+			"desc": "Punish your players more effectively! \n&cThis plugin requires &nTier 2 &cto install. \n&4&lWarning: This will heavily affect scoreboards.",
 			"jarName": "Punishment.jar",
 			"configName": "Punishment",
 			"requiredRank": "2"
