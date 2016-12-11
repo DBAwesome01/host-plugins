@@ -312,7 +312,7 @@
 		{
 			"name": "ClearLag",
 			"desc": "Helps clear the lag on your server.\n&cThis plugin requires &nTier 1&c to install.",
-			"jarName": "ClearLag.jar",
+			"jarName": "Clearlag.jar",
 			"configName": "ClearLag",
     			"requiredRank": "1"
 		},
