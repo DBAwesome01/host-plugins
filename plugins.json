@@ -315,6 +315,7 @@
 			"jarName": "ClearLag.jar",
 			"configName": "ClearLag",
       			"requiredRank": "1"
+		},
     		{
       			"name": "Citizens",
       			"desc": "Add NPCs to your server!",
