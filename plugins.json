@@ -341,6 +341,6 @@
 		        "desc": "Get tab prefixes!",
 		        "jarName": "sTabList.jar",
 		        "configName": "sTabList"
-		{
+		}
 	]
 }
