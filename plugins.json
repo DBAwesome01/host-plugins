@@ -336,6 +336,7 @@
 			"configName": "Punishment",
 			"requiredRank": "2"
 		},
+		{
 		        "name": "sTabList",
 		        "desc": "Get tab prefixes!",
 		        "jarName": "sTabList.jar",
