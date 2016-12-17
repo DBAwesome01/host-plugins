@@ -124,6 +124,12 @@
 			"configName": "MineResetLite"
 		},
 		{
+			"name": "Orebfuscator",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.",
+			"jarName": "Orebfuscator.jar",
+			"configName":"Orebfuscator4"
+		},
+		{
 			"name": "AntiSwear",
 			"desc": "Stop players spamming & cussing in chat.",
 			"jarName": "AntiSwear.jar",
