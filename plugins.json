@@ -127,7 +127,8 @@
 			"name": "Orebfuscator",
 			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib&r",
 			"jarName": "Orebfuscator.jar",
-			"configName":"Orebfuscator4"
+			"configName":"Orebfuscator4",
+			"requiredRank":"3"
 		},
 		{
 			"name": "AntiSwear",
