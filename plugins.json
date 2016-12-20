@@ -82,8 +82,14 @@
 			"configName": "Vault"
 		},
 		{
+			"name": "Placeholder API",
+			"desc": "API which gives plugins access to variables to display.",
+			"jarName": "PlaceholderAPI.jar",
+			"configName": "PlaceholderAPI"
+		},
+		{
 			"name": "ProtocolLib",
-			"desc": "Allows plugins to access new functions.",
+			"desc": "API which allows plugins to access new functions.",
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib"
 		},
