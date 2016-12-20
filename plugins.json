@@ -337,13 +337,6 @@
 			"requiredRank": "2"
 		},
 		{
-		        "name": "sTabList",
-		        "desc": "Get tab prefixes!",
-		        "jarName": "sTablist.jar",
-		        "configName": "sTabList",
-			"disabled": "true"
-		},
-		{
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
