@@ -290,11 +290,18 @@
 			"requiredRank": "4"
 		},
 		{
+			"name": "Core Protect",
+			"desc": "Fast, efficient block logging and anti-griefing tool\n&cThis plugin requires &nTier 2&c to install.",
+			"jarName": "CoreProtect.jar",
+			"configName": "CoreProtect",
+			"requiredRank": "2"
+		},
+		{
 			"name": "Log by Bayside308",
-			"desc": "Log blocks in your world without MySQL or configuration.\n&cThis plugin requires &nTier 3&c to install.",
+			"desc": "Log block changes in your world.\n&cThis plugin requires &nTier 2&c to install.",
 			"jarName": "Log.jar",
 			"configName": "Log",
-			"requiredRank": "3"
+			"requiredRank": "2"
 		},
 		{
 			"name": "Joe's Horse Collect",
