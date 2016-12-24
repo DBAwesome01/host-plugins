@@ -124,8 +124,8 @@
 			"configName": "MineResetLite"
 		},
 		{
-			"name": "AntiSwear",
-			"desc": "Stop players spamming & cussing in chat.",
+			"name": "ChatControl",
+			"desc": "Control your chat easier.",
 			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
