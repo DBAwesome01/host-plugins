@@ -354,6 +354,12 @@
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
 			"configName": "TitleWelcomeMessage"
+		},
+		{
+			"name": "Nametag Edit",
+			"desc": "Edit tablist/scoreboard prefixes and suffixes",
+			"jarName": "NametagEdit.jar",
+			"configName": "NametagEdit"
 		}
 	]
 }
