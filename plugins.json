@@ -130,8 +130,8 @@
 			"configName": "MineResetLite"
 		},
 		{
-			"name": "AntiSwear",
-			"desc": "Stop players spamming & cussing in chat.",
+			"name": "Chat Control",
+			"desc": "Control aspects of the chat and prevent swearing/spamming.",
 			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
@@ -350,6 +350,13 @@
 			"requiredRank": "2"
 		},
 		{
+			"name":"AutoMessage",
+			"desc":" A fully in-game edited automatic broadcast system. \n&cThis requires &nTier 1 &cto install.",
+			"jarName":"AutoMessage.jar",
+			"configName":"AutoMessage",
+			"requiredRank": "1"
+    		},
+    		{
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
