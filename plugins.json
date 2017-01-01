@@ -342,6 +342,11 @@
 			"jarName": "Punishment.jar",
 			"configName": "Punishment",
 			"requiredRank": "2"
-		}
-	]
+		},
+		{
+			"name":"AutoMessage",
+			"desc":" A fully in-game edited automatic\nbroadcast system. &cThis requires &nTier 1 &cto install.",
+			"jarName":"AutoMessage.jar",
+			"configName":"AutoMessage",
+			"requiredRank": "1"
 }
