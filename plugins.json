@@ -355,8 +355,8 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-    },
-    {
+    		},
+    		{
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
