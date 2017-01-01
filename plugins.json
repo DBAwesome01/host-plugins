@@ -82,8 +82,14 @@
 			"configName": "Vault"
 		},
 		{
+			"name": "Placeholder API",
+			"desc": "API which gives plugins access to variables to display.",
+			"jarName": "PlaceholderAPI.jar",
+			"configName": "PlaceholderAPI"
+		},
+		{
 			"name": "ProtocolLib",
-			"desc": "Allows plugins to access new functions.",
+			"desc": "API which allows plugins to access new functions.",
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib"
 		},
@@ -225,8 +231,7 @@
 			"desc": "Create custom and interactive NPCs.\n&cThis plugin requires &nTier 1&c to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
 			"jarName": "Citizens.jar",
 			"configName": "Citizens",
-			"requiredRank": "1",
-			"disabled": true
+			"requiredRank": "1"
 		},
 		{
 			"name": "McMMO",
@@ -285,11 +290,18 @@
 			"requiredRank": "4"
 		},
 		{
+			"name": "Core Protect",
+			"desc": "Fast, efficient block logging and anti-griefing tool\n&cThis plugin requires &nTier 2&c to install.",
+			"jarName": "CoreProtect.jar",
+			"configName": "CoreProtect",
+			"requiredRank": "2"
+		},
+		{
 			"name": "Log by Bayside308",
-			"desc": "Log blocks in your world without MySQL or configuration.\n&cThis plugin requires &nTier 3&c to install.",
+			"desc": "Log block changes in your world.\n&cThis plugin requires &nTier 2&c to install.",
 			"jarName": "Log.jar",
 			"configName": "Log",
-			"requiredRank": "3"
+			"requiredRank": "2"
 		},
 		{
 			"name": "Joe's Horse Collect",
@@ -312,16 +324,10 @@
 		{
 			"name": "ClearLag",
 			"desc": "Helps clear the lag on your server.\n&cThis plugin requires &nTier 1&c to install.",
-			"jarName": "ClearLag.jar",
+			"jarName": "Clearlag.jar",
 			"configName": "ClearLag",
     			"requiredRank": "1"
 		},
-    		{
-    			"name": "Citizens",
-    			"desc": "Add NPCs to your server!",
-    			"jarName": "Citizens.jar",
-    			"configName": "Citizens"
-    		},
 		{
     			"name": "Scaffold",
 			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core\n&cRequires &nTier 4&c to install.",
@@ -338,15 +344,29 @@
 		},
 		{
 			"name":"Punishment",
-			"desc": "Punish your players more effectively! \n&cThis plugin requires &nTier 2 &cto install. \n&4&lWarning: This will heavily affect scoreboards.",
+			"desc": "Punish your players more effectively! \n&cNote: May prevent scoreboards from properly displaying. \n&cThis plugin requires &nTier 2 &cto install.",
 			"jarName": "Punishment.jar",
 			"configName": "Punishment",
 			"requiredRank": "2"
 		},
 		{
 			"name":"AutoMessage",
-			"desc":" A fully in-game edited automatic\nbroadcast system. &cThis requires &nTier 1 &cto install.",
+			"desc":" A fully in-game edited automatic broadcast system. \n&cThis requires &nTier 1 &cto install.",
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
+    },
+    {
+			"name": "Title Welcome Message",
+			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
+			"jarName": "TitleWelcomeMessage.jar",
+			"configName": "TitleWelcomeMessage"
+		},
+		{
+			"name": "Nametag Edit",
+			"desc": "Edit tablist/scoreboard prefixes and suffixes",
+			"jarName": "NametagEdit.jar",
+			"configName": "NametagEdit"
+		}
+	]
 }
