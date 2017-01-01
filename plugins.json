@@ -130,8 +130,8 @@
 			"configName": "MineResetLite"
 		},
 		{
-			"name": "ChatControl",
-			"desc": "Control your chat easier.",
+			"name": "Chat Control",
+			"desc": "Control aspects of the chat and prevent swearing/spamming.",
 			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
