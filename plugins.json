@@ -367,6 +367,13 @@
 			"desc": "Edit tablist/scoreboard prefixes and suffixes",
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
+		},
+		{
+			"name": "CommandNPC",
+			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"jarName": "CommandNPC.jar",
+			"configName": "CommandNPC",
+			"requiredRank": "1"
 		}
 	]
 }
