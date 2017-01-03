@@ -380,6 +380,12 @@
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    		}
+    		},
+		{
+			"name": "CmdSigns",
+			"desc": "Fully customizable command signs",
+			"jarName": "CmdSigns.jar",
+			"configName": "CmdSigns"
+		}
 	]
 }
