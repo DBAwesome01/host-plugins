@@ -130,8 +130,8 @@
 			"configName": "MineResetLite"
 		},
 		{
-			"name": "AntiSwear",
-			"desc": "Stop players spamming & cussing in chat.",
+			"name": "Chat Control",
+			"desc": "Control aspects of the chat and prevent swearing/spamming.",
 			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
@@ -234,6 +234,13 @@
 			"requiredRank": "1"
 		},
 		{
+			"name": "CommandNPC",
+			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"jarName": "CommandNPC.jar",
+			"configName": "CommandNPC",
+			"requiredRank": "1"
+		},
+		{
 			"name": "McMMO",
 			"desc": "RPG experience in Minecraft!\n&cThis plugin requires &nTier 1&c to install.",
 			"jarName": "mcMMO.jar",
@@ -326,16 +333,16 @@
 			"desc": "Helps clear the lag on your server.\n&cThis plugin requires &nTier 1&c to install.",
 			"jarName": "Clearlag.jar",
 			"configName": "ClearLag",
-    			"requiredRank": "1"
+    	"requiredRank": "1"
 		},
 		{
-    			"name": "Scaffold",
+    	"name": "Scaffold",
 			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core\n&cRequires &nTier 4&c to install.",
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-    		},
-    		{
+    },
+    {
 			"name": "Multiverse-Core",
 			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
 			"jarName": "Multiverse-Core.jar",
@@ -350,16 +357,29 @@
 			"requiredRank": "2"
 		},
 		{
+			"name":"AutoMessage",
+			"desc":" A fully in-game edited automatic broadcast system. \n&cThis requires &nTier 1 &cto install.",
+			"jarName":"AutoMessage.jar",
+			"configName":"AutoMessage",
+			"requiredRank": "1"
+    },
+    {
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
 			"configName": "TitleWelcomeMessage"
 		},
 		{
+			"name": "Nametag Edit",
+			"desc": "Edit tablist/scoreboard prefixes and suffixes",
+			"jarName": "NametagEdit.jar",
+			"configName": "NametagEdit"
+		},
+    {
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-		}
+    }
 	]
 }
