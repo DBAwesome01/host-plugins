@@ -82,8 +82,14 @@
 			"configName": "Vault"
 		},
 		{
+			"name": "Placeholder API",
+			"desc": "API which gives plugins access to variables to display.",
+			"jarName": "PlaceholderAPI.jar",
+			"configName": "PlaceholderAPI"
+		},
+		{
 			"name": "ProtocolLib",
-			"desc": "Allows plugins to access new functions.",
+			"desc": "API which allows plugins to access new functions.",
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib"
 		},
@@ -125,7 +131,7 @@
 		},
 		{
 			"name": "Orebfuscator",
-			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib&r",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cThis plugin requires &nTier 3 and ProtocolLib",
 			"jarName": "Orebfuscator.jar",
 			"configName":"Orebfuscator4",
 			"requiredRank":"3"
@@ -133,7 +139,9 @@
 		{
 			"name": "AntiSwear",
 			"desc": "Stop players spamming & cussing in chat.",
-			"jarName": "AntiSwear.jar",
+			"name": "Chat Control",
+			"desc": "Control aspects of the chat and prevent swearing/spamming.",
+      "jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
 		{
@@ -232,7 +240,14 @@
 			"desc": "Create custom and interactive NPCs.\n&cThis plugin requires &nTier 1&c to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
 			"jarName": "Citizens.jar",
 			"configName": "Citizens",
-			"requiredRank": "2"
+			"requiredRank": "1"
+		},
+		{
+			"name": "CommandNPC",
+			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"jarName": "CommandNPC.jar",
+			"configName": "CommandNPC",
+			"requiredRank": "1"
 		},
 		{
 			"name": "McMMO",
@@ -291,11 +306,18 @@
 			"requiredRank": "4"
 		},
 		{
+			"name": "Core Protect",
+			"desc": "Fast, efficient block logging and anti-griefing tool\n&cThis plugin requires &nTier 2&c to install.",
+			"jarName": "CoreProtect.jar",
+			"configName": "CoreProtect",
+			"requiredRank": "2"
+		},
+		{
 			"name": "Log by Bayside308",
-			"desc": "Log blocks in your world without MySQL or configuration.\n&cThis plugin requires &nTier 3&c to install.",
+			"desc": "Log block changes in your world.\n&cThis plugin requires &nTier 2&c to install.",
 			"jarName": "Log.jar",
 			"configName": "Log",
-			"requiredRank": "3"
+			"requiredRank": "2"
 		},
 		{
 			"name": "Joe's Horse Collect",
@@ -328,7 +350,7 @@
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-    		},
+   		},
     		{
 			"name": "Multiverse-Core",
 			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
@@ -344,10 +366,41 @@
 			"requiredRank": "2"
 		},
 		{
-		        "name": "sTabList",
-		        "desc": "Get tab prefixes!",
-		        "jarName": "sTablist.jar",
-		        "configName": "sTabList"
+			"name":"AutoMessage",
+			"desc":" A fully in-game edited automatic broadcast system. \n&cThis requires &nTier 1 &cto install.",
+			"jarName":"AutoMessage.jar",
+			"configName":"AutoMessage",
+			"requiredRank": "1"
+    		},
+    		{
+			"name": "Title Welcome Message",
+			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
+			"jarName": "TitleWelcomeMessage.jar",
+			"configName": "TitleWelcomeMessage"
+		},
+		{
+			"name": "Nametag Edit",
+			"desc": "Edit tablist/scoreboard prefixes and suffixes",
+			"jarName": "NametagEdit.jar",
+			"configName": "NametagEdit"
+		},
+    		{
+			"name": "Area Shop",
+			"desc": "Allows for the buying and renting of worldguard regions",
+			"jarName": "AreaShop.jar",
+			"configName": "AreaShop"
+    		},
+		{
+			"name": "CmdSigns",
+			"desc": "Fully customizable command signs",
+			"jarName": "CmdSigns.jar",
+			"configName": "CmdSigns"
+		},
+		{
+			"name": "Auto Color",
+			"desc": "Permission based auto chat color!",
+			"jarName": "AutoColor.jar",
+			"configName": "AutoColor"
 		}
 	]
 }
