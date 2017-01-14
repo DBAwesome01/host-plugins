@@ -140,7 +140,7 @@
 			"name": "Chat Control",
 			"desc": "Control aspects of the chat and prevent swearing/spamming.",
       			"jarName": "AntiSwear.jar",
-			"configName": "ChatControl",
+			"configName": "ChatControl"
 		},
 		{
 			"name": "Lockette",
