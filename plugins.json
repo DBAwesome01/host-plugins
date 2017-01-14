@@ -130,10 +130,17 @@
 			"configName": "MineResetLite"
 		},
 		{
+			"name": "Orebfuscator",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cThis plugin requires &nTier 3 and ProtocolLib",
+			"jarName": "Orebfuscator.jar",
+			"configName":"Orebfuscator4",
+			"requiredRank":"3"
+		},
+		{
 			"name": "Chat Control",
 			"desc": "Control aspects of the chat and prevent swearing/spamming.",
-			"jarName": "AntiSwear.jar",
-			"configName": "ChatControl"
+      			"jarName": "AntiSwear.jar",
+			"configName": "ChatControl",
 		},
 		{
 			"name": "Lockette",
