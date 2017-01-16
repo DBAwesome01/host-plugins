@@ -402,10 +402,10 @@
 			"configName": "CmdSigns"
 		},
 		{
-			"name": "Auto Color",
-			"desc": "Permission based auto chat color!",
-			"jarName": "AutoColor.jar",
-			"configName": "AutoColor"
+			"name": "ChatColor+",
+			"desc": "Allows your users with permissions\nto change their name/chat color!",
+			"jarName": "ChatColor.jar",
+			"configName": "ChatColor+"
 		}
 	]
 }
