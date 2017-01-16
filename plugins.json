@@ -172,6 +172,12 @@
 			"jarName": "CreateYourOwnMenus-0.5.9.jar",
 			"configName": "CreateYourOwnMenus"
 		},
+		{
+			"name": "Project Korra",
+			"desc": "Bring the elemental powers of\nAvatar: the Last Airbender\ninto your server.\n&cThis plugin requires &nTier 3 &cto install.",
+			"jarName": "ProjectKorra.jar",
+			"configName": "ProjectKorra"
+		}
 		{	
 			"name": "EchoPet",
 			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
