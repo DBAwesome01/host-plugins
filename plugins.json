@@ -176,7 +176,8 @@
 			"name": "Project Korra",
 			"desc": "Bring the elemental powers of\nAvatar: the Last Airbender\ninto your server.\n&cThis plugin requires &nTier 3 &cto install.",
 			"jarName": "ProjectKorra.jar",
-			"configName": "ProjectKorra"
+			"configName": "ProjectKorra",
+			"requiredRank": "3"
 		},
 		{	
 			"name": "EchoPet",
@@ -186,7 +187,7 @@
 			"disabled": true
 		},
 		{
-		    "name": "SonarPet",
+		    	"name": "SonarPet",
 			"desc": "A fork of EchoPet updated for 1.9.",
 			"jarName": "SonarPet.jar",
 			"configName": "SonarPet"
