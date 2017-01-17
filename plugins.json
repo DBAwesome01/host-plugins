@@ -223,6 +223,12 @@
 			"configName": "ActionAnnouncer"
 		},
 		{
+			"name": "UltraBar",
+			"desc": "Send Boss Bar messages, Titles, and Actionbars!",
+			"jarName": "UltraBar.jar",
+			"configName": "UltraBar"
+		},
+		{
 			"name": "Holographic Displays",
 			"desc": "Make floating messages around your world.",
 			"jarName": "HolographicDisplays.jar",
