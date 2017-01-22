@@ -404,17 +404,16 @@
 		},
 		{
 			"name": "ServerSpy",
-			"desc": "A toggleable way to view the commands \nyour players have been executing. \n&cNote: This plugin requires Tier 3 to install.",
+			"desc": "A toggleable way to view the commands\nyour players are executing.",
 			"jarName": "ServerSpy.jar",
-			"configName": "ServerSpy",
-			"requiredRank": "3"
+			"configName": "ServerSpy"
 		},
-    {
+    		{
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    },
+    		},
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
