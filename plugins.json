@@ -402,6 +402,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
+		{
+			"name": "ServerSpy",
+			"desc": "A toggleable way to view the commands\nyour players are executing.",
+			"jarName": "ServerSpy.jar",
+			"configName": "ServerSpy"
+		},
     		{
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
