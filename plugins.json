@@ -282,10 +282,17 @@
 			"requiredRank": "2"
 		},
 		{
-			"name": "Sky Block",
+			"name": "ASkyBlock",
 			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
+			"requiredRank": "2"
+		},
+		{
+			"name": "ASkyGrid",
+			"desc": "Survive in a grid of blocks.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
+			"jarName": "askygrid.jar",
+			"configName": "ASkyGrid",
 			"requiredRank": "2"
 		},
 		{
