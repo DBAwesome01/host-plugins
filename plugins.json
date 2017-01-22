@@ -367,6 +367,12 @@
 			"desc": "Edit tablist/scoreboard prefixes and suffixes",
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
+			
+		},
+		{
+			"name": "ServerSpy",
+			"desc": "A toggleable way to view the commands \nyour players have been executing. \n&cNote: This plugin requires Tier 3 to install.",
+			"jarName	
 		}
 	]
 }
