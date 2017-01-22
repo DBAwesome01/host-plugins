@@ -70,6 +70,12 @@
 			"disabled": true
 		},
 		{
+			"name": "goBrush",
+			"desc": "A plugin with brushes and height maps for terraforming.",
+			"jarName": "goBrush.jar",
+			"configName": "goBrush"
+		},	
+		{
 			"name": "World Guard",
 			"desc": "Create and manage regions using this plugin.",
 			"jarName": "worldguard.jar",
