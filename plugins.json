@@ -72,7 +72,7 @@
 		{
 			"name": "goBrush",
 			"desc": "A plugin with brushs and height maps for terraforming.",
-			"jarName": "goBrush.jar"
+			"jarName": "goBrush.jar",
 			"configName": "goBrush"
 		},	
 		{
