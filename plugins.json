@@ -130,9 +130,16 @@
 			"configName": "MineResetLite"
 		},
 		{
+			"name": "Orebfuscator",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cThis plugin requires &nTier 3 and ProtocolLib",
+			"jarName": "Orebfuscator.jar",
+			"configName":"Orebfuscator4",
+			"requiredRank":"3"
+		},
+		{
 			"name": "Chat Control",
 			"desc": "Control aspects of the chat and prevent swearing/spamming.",
-			"jarName": "AntiSwear.jar",
+      			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
 		{
@@ -165,6 +172,13 @@
 			"jarName": "CreateYourOwnMenus-0.5.9.jar",
 			"configName": "CreateYourOwnMenus"
 		},
+		{
+			"name": "Project Korra",
+			"desc": "Bring the elemental powers of\nAvatar: the Last Airbender\ninto your server.\n&cThis plugin requires &nTier 3 &cto install.",
+			"jarName": "ProjectKorra.jar",
+			"configName": "ProjectKorra",
+			"requiredRank": "3"
+		},
 		{	
 			"name": "EchoPet",
 			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
@@ -173,7 +187,7 @@
 			"disabled": true
 		},
 		{
-		    "name": "SonarPet",
+		    	"name": "SonarPet",
 			"desc": "A fork of EchoPet updated for 1.9.",
 			"jarName": "SonarPet.jar",
 			"configName": "SonarPet"
@@ -209,6 +223,12 @@
 			"configName": "ActionAnnouncer"
 		},
 		{
+			"name": "UltraBar",
+			"desc": "Send Boss Bar messages, Titles, and Actionbars!",
+			"jarName": "UltraBar.jar",
+			"configName": "UltraBar"
+		},
+		{
 			"name": "Holographic Displays",
 			"desc": "Make floating messages around your world.",
 			"jarName": "HolographicDisplays.jar",
@@ -234,6 +254,13 @@
 			"requiredRank": "1"
 		},
 		{
+			"name": "CommandNPC",
+			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"jarName": "CommandNPC.jar",
+			"configName": "CommandNPC",
+			"requiredRank": "1"
+		},
+		{
 			"name": "McMMO",
 			"desc": "RPG experience in Minecraft!\n&cThis plugin requires &nTier 1&c to install.",
 			"jarName": "mcMMO.jar",
@@ -255,10 +282,17 @@
 			"requiredRank": "2"
 		},
 		{
-			"name": "Sky Block",
+			"name": "ASkyBlock",
 			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
+			"requiredRank": "2"
+		},
+		{
+			"name": "ASkyGrid",
+			"desc": "Survive in a grid of blocks.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
+			"jarName": "askygrid.jar",
+			"configName": "ASkyGrid",
 			"requiredRank": "2"
 		},
 		{
@@ -334,7 +368,7 @@
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-    		},
+   		},
     		{
 			"name": "Multiverse-Core",
 			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
@@ -367,15 +401,37 @@
 			"desc": "Edit tablist/scoreboard prefixes and suffixes",
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
-			
 		},
 		{
 			"name": "ServerSpy",
 			"desc": "A toggleable way to view the commands \nyour players have been executing. \n&cNote: This plugin requires Tier 3 to install.",
 			"jarName": "ServerSpy.jar",
-			"configName": "ServerSpy"
+			"configName": "ServerSpy",
 			"requiredRank": "3"
-	
+		},
+    {
+			"name": "Area Shop",
+			"desc": "Allows for the buying and renting of worldguard regions",
+			"jarName": "AreaShop.jar",
+			"configName": "AreaShop"
+    },
+		{
+			"name": "CmdSigns",
+			"desc": "Fully customizable command signs",
+			"jarName": "CmdSigns.jar",
+			"configName": "CmdSigns"
+		},
+		{
+			"name": "AutoColor",
+			"desc": "Permission based auto chat color",
+			"jarName": "AutoColor.jar",
+			"configName": "AutoColor"
+		},
+		{
+			"name": "ChatColor+",
+			"desc": "Allows your users with permissions\nto change their name/chat color!",
+			"jarName": "ChatColor.jar",
+			"configName": "ChatColor+"
 		}
 	]
 }
