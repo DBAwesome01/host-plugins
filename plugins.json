@@ -89,6 +89,12 @@
 			"desc": "Create Custom Mob Spawners",
 			"jarName": "SilkSpawners.jar",
 			"configName": "SilkSpawners"
+		},
+		{
+			"name": "UltraSmite",
+			"desc": "Smite People on a Server",
+			"jarName": "Ultrasmite-1.4.jar",
+			"configName": "UltraSmite"
 		}
 	]
 }
