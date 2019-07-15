@@ -1,5 +1,5 @@
-## MCHost.co Plugin Repository
-Public plugin repo used in the /mchost plugin menu. 
+## Minehut.com Player-Server Plugin Repository
+Public plugin repo used in the /minehut plugin menu. 
 
 ### How to Contribute
 Adding a plugin is as simple as...
@@ -18,6 +18,32 @@ Adding a plugin is as simple as...
 		"configName": "SilkSpawners"  
 	}
 ```
+
+--
+
+You can use `color codes` in the desc.
+```
+"desc": "&bThis will display as aqua!"
+```
+Putting `\n` will result in a new line.
+Please be sure to create multiple lines for large descriptions.
+
+--
+
+In its current state, our framework does not support the practice of hard deleting plugins. To disable/remove a broken plugin, add `"disabled": true`
+Example: 
+```
+	{	
+		"name": "EchoPet",
+		"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
+		"jarName": "EchoPet_v2.8.0.jar",
+		"configName": "EchoPet_v2.8.0",
+		"disabled": true
+	},
+```
+
+This will remove the plugin from servers when they startup, and will hide the plugin from the plugins page of the control panel.
+
 --
 ### Pull Requests
 Pull requests should have the following things:
@@ -29,3 +55,5 @@ Pull requests should have the following things:
 
 2. Content should be grammatically correct and the spelling should be US English, e.g. Color not Colour.
 
+-
+**Changes are instantly applied to all servers accross the network. Please be cautious of any json syntax errors.**

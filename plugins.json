@@ -2,93 +2,447 @@
 	"plugins": [
 		{
 			"name": "Essentials",
-			"desc": "Essential commands",
+			"desc": "Essential commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "Essentials.jar",
 			"configName": "Essentials"
 		},
 		{
 			"name": "Essentials Spawn",
-			"desc": "Setup a server spawn point",
+			"desc": "Setup a server spawn point.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "EssentialsSpawn.jar",
 			"configName": "~"
 		},
 		{
-			"name": "Essentials Group Manager",
-			"desc": "Create Permission Systems",
-			"jarName": "GroupManager.jar",
-			"configName": "GroupManager"
-		},
-		{
-			"name": "No Cheat Plus",
-			"desc": "Anti-cheat",
-			"jarName": "NoCheatPlus.jar",
-			"configName": "NoCheatPlus"
-		},
-		{
-			"name": "Permissions Ex",
-			"desc": "Create Permission Systems",
-			"jarName": "PermissionsEx.jar",
-			"configName": "PermissionsEx"
-		},
-		{
 			"name": "Essentials Chat",
-			"desc": "Chat Formatting",
+			"desc": "Format the chat to make it look nicer.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "EssentialsChat.jar",
 			"configName": "~"
 		},
 		{
-			"name": "World Edit",
-			"desc": "Build Tools",
-			"jarName": "worldedit.jar",
-			"configName": "WorldGuard"
-		},
-		{
-			"name": "World Guard",
-			"desc": "Region Management",
-			"jarName": "worldguard.jar",
-			"configName": "WorldGuard"
-		},
-		{
 			"name": "Essentials Kit Adder",
-			"desc": "Add kits with commands",
+			"desc": "Add kits with commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "KitAdder.jar",
 			"configName": "KitAdder"
 		},
 		{
-			"name": "Trail GUI",
-			"desc": "Particle Trails",
-			"jarName": "TrialGUI.jar",
-			"configName": "TrailGUI"
+			"name": "Essentials Group Manager",
+			"desc": "Create permission systems.\n&aAll Essentials plugins count as 1 plugin.",
+			"jarName": "GroupManager.jar",
+			"configName": "GroupManager"
+		},
+		{
+			"name": "Permissions Ex",
+			"desc": "Create permission systems.",
+			"jarName": "PermissionsEx.jar",
+			"configName": "PermissionsEx"
+		},
+		{
+			"name": "No Cheat Plus",
+			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
+			"jarName": "NoCheatPlus.jar",
+			"configName": "NoCheatPlus"
+		},
+		{
+			"name": "World Edit",
+			"desc": "Build tools.",
+			"jarName": "worldedit.jar",
+			"configName": "WorldEdit"
+		},
+		{
+			"name": "Fast Async WorldEdit",
+			"desc": "Extremely optimized WorldEdit to use when working with big numbers.",
+			"jarName": "FastAsyncWorldEdit.jar",
+			"configName": "FastAsyncWorldEdit",
+			"disabled": true
+		},
+		{
+			"name": "AsyncWorldEdit",
+			"desc": "WorldEdit with reduced lag.\n&cRequires &nWorldEdit&c and &nAsyncWorldEditInjector&r&c to be installed.",
+			"jarName": "AsyncWorldEdit.jar",
+			"configName": "AsyncWorldEdit",
+			"disabled": true
+		},
+		{
+			"name": "AsyncWorldEditInjector",
+			"desc": "Required plugin for &nAsyncWorldEdit&r",
+			"jarName": "AsyncWorldEditInjector.jar",
+			"configName": "AsyncWorldEditInjector",
+			"disabled": true
+		},
+		{
+			"name": "goBrush",
+			"desc": "A plugin with brushes and height maps for terraforming.",
+			"jarName": "goBrush.jar",
+			"configName": "goBrush"
+		},	
+		{
+			"name": "World Guard",
+			"desc": "Create and manage regions using this plugin.",
+			"jarName": "worldguard.jar",
+			"configName": "WorldGuard"
 		},
 		{
 			"name": "Vault",
-			"desc": "Economy API",
+			"desc": "Economy, Permissions, and Chat API.",
 			"jarName": "Vault.jar",
 			"configName": "Vault"
 		},
 		{
+			"name": "Placeholder API",
+			"desc": "API which gives plugins access to variables to display.",
+			"jarName": "PlaceholderAPI.jar",
+			"configName": "PlaceholderAPI"
+		},
+		{
+			"name": "ProtocolLib",
+			"desc": "API which allows plugins to access new functions.",
+			"jarName": "ProtocolLib.jar",
+			"configName": "ProtocolLib"
+		},
+		{
 			"name": "ChestShop",
-			"desc": "Chest Shops",
+			"desc": "Chestshops that allow players to sell/buy items.",
 			"jarName": "ChestShop.jar",
 			"configName": "ChestShop"
 		},
 		{
 			"name": "Crack Shot",
-			"desc": "Guns in Minecraft",
+			"desc": "Guns in Minecraft.",
 			"jarName": "CrackShot.jar",
 			"configName": "CrackShot"
 		},
 		{
 			"name": "Crates Plus",
-			"desc": "Spawn Crates",
+			"desc": "Crates to give out rewards to players with keys.",
 			"jarName": "CratesPlus.jar",
 			"configName": "CratesPlus"
 		},
 		{
+			"name": "Shopkeepers",
+			"desc": "Create customizable villager shops with this plugin.",
+			"jarName": "Shopkeepers.jar",
+			"configName": "Shopkeepers"
+		},
+		{
 			"name": "Silk Spawners",
-			"desc": "Create Custom Mob Spawners",
+			"desc": "Create and pick up custom mob spawners.",
 			"jarName": "SilkSpawners.jar",
 			"configName": "SilkSpawners"
+		},
+		{
+			"name": "MineResetLite",
+			"desc": "Create mines that will reset.",
+			"jarName": "MineResetLite.jar",
+			"configName": "MineResetLite"
+		},
+		{
+			"name": "Orebfuscator",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cThis plugin requires &nTier 3 and ProtocolLib",
+			"jarName": "Orebfuscator.jar",
+			"configName":"Orebfuscator4",
+			"requiredRank":"3"
+		},
+		{
+			"name": "Chat Control",
+			"desc": "Control aspects of the chat and prevent swearing/spamming.",
+      			"jarName": "AntiSwear.jar",
+			"configName": "ChatControl"
+		},
+		{
+			"name": "Lockette",
+			"desc": "Personal chest protection system.",
+			"jarName": "Lockette.jar",
+			"configName": "Lockette"
+		},
+		{
+			"name": "EZRanksPro",
+			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
+			"jarName": "EZRanksPro.jar",
+			"configName": "EZRanksPro"
+		},
+		{
+			"name": "Combat Log",
+			"desc": "Punish players who log out during combat!",
+			"jarName": "CombatLog-1.8.11-fix.jar",
+			"configName": "CombatLog-1.8.11-fix"
+		},
+		{
+			"name": "Libs Disguises",
+			"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&r",
+			"jarName": "LibsDisguises.jar",
+			"configName": "LibsDisguises"
+		},
+		{
+			"name": "Create Your Own Menus",
+			"desc": "Allows you to create your own GUI menus!",
+			"jarName": "CreateYourOwnMenus-0.5.9.jar",
+			"configName": "CreateYourOwnMenus"
+		},
+		{
+			"name": "Project Korra",
+			"desc": "Bring the elemental powers of\nAvatar: the Last Airbender\ninto your server.\n&cThis plugin requires &nTier 3 &cto install.",
+			"jarName": "ProjectKorra.jar",
+			"configName": "ProjectKorra",
+			"requiredRank": "3"
+		},
+		{	
+			"name": "EchoPet",
+			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
+			"jarName": "EchoPet_v2.8.0.jar",
+			"configName": "EchoPet_v2.8.0",
+			"disabled": true
+		},
+		{
+		    	"name": "SonarPet",
+			"desc": "A fork of EchoPet updated for 1.9.",
+			"jarName": "SonarPet.jar",
+			"configName": "SonarPet"
+		},
+		{
+			"name": "ObsidianAuctions",
+			"desc": "Unique chat based auction system.\n&cThis plugin requires &nVault&c.",
+			"jarName": "ObsidianAuctions.jar",
+			"configName": "ObsidianAuctions"
+		},
+		{
+			"name": "VoxelSniper",
+			"desc": "Long range map editing tool for terraforming.",
+			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
+			"configName": "VoxelSniper"
+		},
+		{
+			"name": "BetterCombat",
+			"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
+			"jarName": "BetterCombat.jar",
+			"configName": "BetterCombat"
+		},
+		{
+			"name": "Trade+",
+			"desc": "Lets players easily and safely trade items via a GUI.",
+			"jarName": "TradePlus.jar",
+			"configName": "TradePlus"
+		},
+		{
+			"name": "Action Announcer",
+			"desc": "Create timed broadcasts for your server through the action bar.",
+			"jarName": "ActionAnnouncer.jar",
+			"configName": "ActionAnnouncer"
+		},
+		{
+			"name": "UltraBar",
+			"desc": "Send Boss Bar messages, Titles, and Actionbars!",
+			"jarName": "UltraBar.jar",
+			"configName": "UltraBar"
+		},
+		{
+			"name": "Holographic Displays",
+			"desc": "Make floating messages around your world.",
+			"jarName": "HolographicDisplays.jar",
+			"configName": "HolographicDisplays"
+		},
+		{
+			"name": "SuperTrails",
+			"desc": "Colorful cosmetic trails to get around fabulously.",
+			"jarName": "SuperTrails.jar",
+			"configName": "SuperTrails"
+		},
+		{
+			"name": "CustomEnchants",
+			"desc": "Custom enchantments and levels!",
+			"jarName": "CustomEnchantments.jar",
+			"configName": "CustomEnchantments"
+		},
+		{
+			"name": "Citizens",
+			"desc": "Create custom and interactive NPCs.\n&cThis plugin requires &nTier 1&c to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
+			"jarName": "Citizens.jar",
+			"configName": "Citizens",
+			"requiredRank": "1"
+		},
+		{
+			"name": "CommandNPC",
+			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"jarName": "CommandNPC.jar",
+			"configName": "CommandNPC",
+			"requiredRank": "1"
+		},
+		{
+			"name": "McMMO",
+			"desc": "RPG experience in Minecraft!\n&cThis plugin requires &nTier 1&c to install.",
+			"jarName": "mcMMO.jar",
+			"configName": "mcMMO",
+			"requiredRank": "1"
+		},
+		{   
+			"name": "Factions",
+			"desc": "Claim land, build a base and wage war!\n&cThis plugin requires &nTier 2&c to install.",
+			"jarName": "Factions.jar",
+			"configName": "Factions",
+			"requiredRank": "2"
+		},
+		{   
+			"name": "Obsidian Breaker",
+			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cThis plugin requires &nTier 2&c to install.",
+			"jarName": "ObsidianBreaker.jar",
+			"configName": "ObsidianBreaker",
+			"requiredRank": "2"
+		},
+		{
+			"name": "ASkyBlock",
+			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
+			"jarName": "askyblock.jar",
+			"configName": "ASkyBlock",
+			"requiredRank": "2"
+		},
+		{
+			"name": "ASkyGrid",
+			"desc": "Survive in a grid of blocks.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
+			"jarName": "askygrid.jar",
+			"configName": "ASkyGrid",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Towny",
+			"desc": "Towny is a versatile, player-controlled land management plugin.\n&cThis plugin requires &nTier 4&c to install.",
+			"jarName": "Towny.jar",
+			"configName": "Towny",
+			"requiredRank": "4"
+		},
+		{
+			"name": "TownyChat",
+			"desc": "This is required if you want to let Towny modify chat.\n&cThis plugin requires &nTier 4&c to install.",
+			"jarName": "TownyChat.jar",
+			"configName": "TownyChat",
+			"requiredRank": "4"
+		},
+		{
+			"name": "VoidWorld",
+			"desc": "Create void-worlds with this and Multiverse-Core.\n&cThis plugin requires &nTier 4&c to install.",
+			"jarName": "VoidWorld.jar",
+			"configName": "VoidWorld",
+			"requiredRank": "4"
+		},
+		{
+			"name": "PlotSquared",
+			"desc": "PlotSquared is a land management plugin.\n&cThis plugin requires &nTier 4&c to install.",
+			"jarName": "PlotSquared.jar",
+			"configName": "PlotSquared",
+			"requiredRank": "4"
+		},
+		{
+			"name": "Core Protect",
+			"desc": "Fast, efficient block logging and anti-griefing tool\n&cThis plugin requires &nTier 2&c to install.",
+			"jarName": "CoreProtect.jar",
+			"configName": "CoreProtect",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Log by Bayside308",
+			"desc": "Log block changes in your world.\n&cThis plugin requires &nTier 2&c to install.",
+			"jarName": "Log.jar",
+			"configName": "Log",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Joe's Horse Collect",
+			"desc": "Collect, transport, place and spawn horses.",
+			"jarName": "JoeHorseCollect.jar",
+			"configName": "JoeHorseCollect"
+		},
+		{
+			"name": "Joe Marriage",
+			"desc": "Added marriages and divorces to your server.",
+			"jarName": "JoeMarriage.jar",
+			"configName": "JoeMarriage"
+		},
+		{
+			"name": "Loot Protect",
+			"desc": "Protects loot dropped upon death.",
+			"jarName": "LootProtect.jar",
+			"configName": "LootProtect"
+		},
+		{
+			"name": "ClearLag",
+			"desc": "Helps clear the lag on your server.\n&cThis plugin requires &nTier 1&c to install.",
+			"jarName": "Clearlag.jar",
+			"configName": "ClearLag",
+    			"requiredRank": "1"
+		},
+		{
+    			"name": "Scaffold",
+			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core\n&cRequires &nTier 4&c to install.",
+			"jarName": "Scaffold.jar",
+			"configName": "Scaffold",
+			"requiredRank": "4"
+   		},
+    		{
+			"name": "Multiverse-Core",
+			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
+			"jarName": "Multiverse-Core.jar",
+			"configName": "Multiverse-Core",
+			"requiredRank": "4"
+		},
+		{
+			"name":"Punishment",
+			"desc": "Punish your players more effectively! \n&cNote: May prevent scoreboards from properly displaying. \n&cThis plugin requires &nTier 2 &cto install.",
+			"jarName": "Punishment.jar",
+			"configName": "Punishment",
+			"requiredRank": "2"
+		},
+		{
+			"name":"AutoMessage",
+			"desc":" A fully in-game edited automatic broadcast system. \n&cThis requires &nTier 1 &cto install.",
+			"jarName":"AutoMessage.jar",
+			"configName":"AutoMessage",
+			"requiredRank": "1"
+    		},
+    		{
+			"name": "Title Welcome Message",
+			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
+			"jarName": "TitleWelcomeMessage.jar",
+			"configName": "TitleWelcomeMessage"
+		},
+		{
+			"name": "Nametag Edit",
+			"desc": "Edit tablist/scoreboard prefixes and suffixes",
+			"jarName": "NametagEdit.jar",
+			"configName": "NametagEdit"
+		},
+		{
+			"name": "ServerSpy",
+			"desc": "A toggleable way to view the commands\nyour players are executing.",
+			"jarName": "ServerSpy.jar",
+			"configName": "ServerSpy"
+		},
+    		{
+			"name": "Area Shop",
+			"desc": "Allows for the buying and renting of worldguard regions",
+			"jarName": "AreaShop.jar",
+			"configName": "AreaShop"
+    		},
+		{
+			"name": "CmdSigns",
+			"desc": "Fully customizable command signs",
+			"jarName": "CmdSigns.jar",
+			"configName": "CmdSigns"
+		},
+		{
+			"name": "AutoColor",
+			"desc": "Permission based auto chat color",
+			"jarName": "AutoColor.jar",
+			"configName": "AutoColor"
+		},
+		{
+			"name": "ChatColor+",
+			"desc": "Allows your users with permissions\nto change their name/chat color!",
+			"jarName": "ChatColor.jar",
+			"configName": "ChatColor+"
+		},
+		{
+			"name": "QualityArmory",
+			"desc": "A plugin similar to Crackshot for newer minecraft versions.",
+			"jarName": "QualityArmory.jar",
+			"configName": "QualityArmory"
 		}
 	]
 }

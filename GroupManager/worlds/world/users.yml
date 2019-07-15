@@ -1,7 +1,6 @@
-# "For a more advanced configuration example utilizing the advanced features of GroupManager, see http://pastebin.com/a8ZA0j5G"
 users:
-  snowleo:
-    group: Builder
+  ElgarL:
+    group: Moderator
     subgroups: []
     permissions:
     - groupmanager.noofflineperms
@@ -10,9 +9,8 @@ users:
     subgroups: []
     permissions:
     - groupmanager.noofflineperms
-  ElgarL:
-    group: Moderator
+  snowleo:
+    group: Builder
     subgroups: []
     permissions:
     - groupmanager.noofflineperms
-

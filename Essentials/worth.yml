@@ -1,4 +1,4 @@
-worth:
+worth: HELLO
 
   # Items not listed in this file will not be sellable on the server
   # Setting the worth to 0 will sell items for free, delete the item or set to -1 to disable.

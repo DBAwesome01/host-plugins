@@ -20,13 +20,17 @@
 ############################################################
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 nickname-prefix: '~'
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
-max-nick-length: 15
+max-nick-length: 25
+
+# When this option is enabled, nickname length checking will exclude color codes in player names.
+# ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
+ignore-colors-in-max-nick-length: true
 
 # Disable this if you have any other plugin, that modifies the displayname of a user.
 change-displayname: true
@@ -46,10 +50,14 @@ change-displayname: true
 # If this is set to false, attempted teleports to unsafe locations will be cancelled with a warning.
 teleport-safety: true
 
+# This forcefully disables teleport safety checks without a warning if attempting to teleport to unsafe locations.
+# teleport-safety and this option need to be set to true to force teleportation to dangerous locations.
+force-disable-teleport-safety: false
+
 # The delay, in seconds, required between /home, /tp, etc.
 teleport-cooldown: 0
 
-# The delay, in seconds, before a user actually teleports.  If the user moves or gets attacked in this timeframe, the teleport never occurs.
+# The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 0
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
@@ -58,6 +66,11 @@ teleport-invulnerability: 4
 
 # The delay, in seconds, required between /heal or /feed attempts.
 heal-cooldown: 60
+
+# Near Radius
+# The default radius with /near
+# Used to use chat radius but we are going to make it separate.
+near-radius: 200
 
 # What to prevent from /item and /give.
 # e.g item-spawn-blacklist: 10,11,46
@@ -86,6 +99,13 @@ spawnmob-limit: 10
 # Shall we notify users when using /lightning?
 warn-on-smite: true
 
+# Shall we drop items instead of adding to inventory if the target inventory is full?
+drop-items-if-full: false
+
+# Essentials Mail Notification
+# Should we notify players if they have no new mail?
+notify-no-new-mail: true
+
 # The motd and rules are now configured in the files motd.txt and rules.txt.
 
 # When a command conflicts with another plugin, by default, Essentials will try to force the OTHER plugin to take priority.
@@ -106,7 +126,10 @@ overridden-commands:
 disabled-commands:
 #  - nick
 #  - clear
-
+  - ipban
+  - whois
+  - seen
+  - unbanip
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or
 # remove commands that are used for something you dont want to spy on.
@@ -133,6 +156,16 @@ socialspy-commands:
   - etell
   - ewhisper
   - pm
+
+# Mute Commands
+# These commands will be disabled when a player is muted.
+# Use '*' to disable every command.
+# Essentials already disabled Essentials messaging commands by default.
+# It only cares about the root command, not args after that (it sees /f chat the same as /f)
+mute-commands:
+  - f
+  - tell
+ # - '*'
 
 # If you do not wish to use a permission system, you can define a list of 'player perms' below.
 # This list has no effect if you are using a supported permissions system.
@@ -220,6 +253,10 @@ player-commands:
   - worth
   - xmpp
 
+# When this option is enabled, one-time use kits (ie. delay < 0) will be
+# removed from the /kit list when a player can no longer use it
+skip-used-one-time-kits-from-kit-list: true
+
 # Note: All items MUST be followed by a quantity!
 # All kit names should be lower case, and will be treated as lower in permissions/costs.
 # Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
@@ -228,34 +265,34 @@ player-commands:
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  tools:
-    delay: 10
-    items:
-      - 272 1
-      - 273 1
-      - 274 1
-      - 275 1
-  dtools:
-    delay: 600
-    items:
-      - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
-      - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
-      - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
-      - 279:780 1
-  notch:
-    delay: 6000
-    items:
-      - 397:3 1 player:Notch
-  color:
-    delay: 6000
-    items:
-      - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
-  firework:
-    delay: 6000
-    items:
-      - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
-      - 401 1 name:StarryNight color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
-      - 401 2 name:SolarWind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
+ -  tools:
+ -    delay: 10
+ -    items:
+ -      - 272 1
+ -      - 273 1
+ -      - 274 1
+ -      - 275 1
+ -  dtools:
+ -    delay: 600
+ -    items:
+ -      - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+ -      - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+ -      - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+ -      - 279:780 1
+ -  notch:
+ -    delay: 6000
+ -    items:
+ -      - 397:3 1 player:Notch
+ -  color:
+ -    delay: 6000
+ -    items:
+ -      - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+ -  firework:
+ -    delay: 6000
+ -    items:
+ -      - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+ -      - 401 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
+ -      - 401 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
 
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
@@ -297,7 +334,7 @@ backup:
   #command: 'rdiff-backup World1 backups/World1'
 
 # Set this true to enable permission per warp.
-per-warp-permission: false
+per-warp-permission: true
 
 # Sort output of /list command by groups.
 # You can hide and merge the groups displayed in /list by defining the desired behaviour here.
@@ -357,13 +394,18 @@ cancel-afk-on-interact: true
 # Disable this to reduce server lag.
 cancel-afk-on-move: true
 
+# Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
+# should not interfere with the AFK player's list name.
+# You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
+afk-list-name: none
+
 # You can disable the death messages of Minecraft here.
-death-messages: true
+death-messages: false
 
 # Should players with permissions be able to join and part silently?
 # You can control this with essentials.silentjoin and essentials.silentquit permissions if it is enabled.
 # In addition, people with essentials.silentjoin.vanish will be vanished on join.
-allow-silent-join-quit: false
+allow-silent-join-quit: true
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
@@ -400,7 +442,7 @@ repair-enchanted: true
 
 # Allow 'unsafe' enchantments in kits and item spawning.
 # Warning: Mixing and overleveling some enchantments can cause issues with clients, servers and plugins.
-unsafe-enchantments: false
+unsafe-enchantments: true
 
 #Do you want Essentials to keep track of previous location for /back in the teleport listener?
 #If you set this to true any plugin that uses teleport will have the previous location registered.
@@ -421,6 +463,29 @@ mails-per-minute: 1000
 # Set the maximum time /tempban can be used for in seconds.
 # Set to -1 to disable, and essentials.tempban.unlimited can be used to override.
 max-tempban-time: -1
+
+# Changes /reply functionality. If true, /r goes to the person you messaged last, otherwise the first person that messaged you. 
+# If false, /r goes to the last person that messaged you.
+last-message-reply-recipient: true
+
+# If last-message-reply-recipient is true, this specifies the duration, in seconds, that would need to elapse for the 
+# reply-recipient to update when receiving a message.
+# Default is 180 (3 minutes)
+last-message-reply-recipient-timeout: 180
+
+# Toggles whether or not right clicking mobs with a milk bucket turns them into a baby.
+milk-bucket-easter-egg: false
+
+# Become the new Compilex! They multiply the output of the server TPS command by 2 to make their clients think that they are l33t optimizers with a special combat TPS and such.
+# compilex-mode: false
+
+# Toggles whether or not the fly status message should be sent to players on join
+send-fly-enable-on-join: true
+
+# Set to true to enable per-world permissions for setting time for individual worlds with essentials commands.
+# This applies to /time, /day, /eday, /night, /enight, /etime.
+# Give someone permission to teleport to a world with essentials.time.world.<worldname>.
+world-time-permissions: false
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -457,7 +522,7 @@ tpa-accept-cancellation: 120
 
 ############################################################
 # +------------------------------------------------------+ #
-# |                   EssentialsEco                      | #
+# |                    EssentialsEco                     | #
 # +------------------------------------------------------+ #
 ############################################################
 
@@ -492,6 +557,18 @@ min-money: -10000
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
 economy-log-enabled: false
+
+# Use this option to force superperms-based permissions handler regardless of detected installed perms plugin.
+# This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
+# Default is false. 
+use-bukkit-permissions: false
+
+# Minimum acceptable amount to be used in /pay.
+minimum-pay-amount: 0.01
+
+# Make money more fancy by separating it with commas. This makes it easier to read.
+# It'd make $12345678.90 appear as $12,345,678.90
+comma-separated-money: true
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -529,7 +606,7 @@ chat:
   # Or you can give a group specific chat format, to give some extra variation.
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
 
-  format: '{DISPLAYNAME}: {MESSAGE}'
+  format: '{DISPLAYNAME}&r: {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
 
   group-formats:
