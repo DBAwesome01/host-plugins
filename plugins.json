@@ -437,6 +437,12 @@
 			"desc": "Allows your users with permissions\nto change their name/chat color!",
 			"jarName": "ChatColor.jar",
 			"configName": "ChatColor+"
+		},
+		{
+			"name": "QualityArmory",
+			"desc": "A plugin similar to Crackshot for newer minecraft versions.",
+			"jarName": "QualityArmory.jar",
+			"configName": "QualityArmory"
 		}
 	]
 }
